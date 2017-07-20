@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="check-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 21,7L 9,19L 3.5,13.5L 4.91421,12.0858L 9,16.1716L 19.5858,5.58579L 21,7 Z "> 
+      <path d="M 21,7L 9,19L 3.5,13.5L 4.91421,12.0858L 9,16.1716L 19.5858,5.58579L 21,7 Z "></path>
     </svg>
   </div>
 </template>

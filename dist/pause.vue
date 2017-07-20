@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="pause-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 14,19L 18,19L 18,4.99999L 14,4.99999M 6,19L 10,19L 10,4.99999L 6,4.99999L 6,19 Z "> 
+      <path d="M 14,19L 18,19L 18,4.99999L 14,4.99999M 6,19L 10,19L 10,4.99999L 6,4.99999L 6,19 Z "></path>
     </svg>
   </div>
 </template>

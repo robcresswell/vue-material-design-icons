@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="triangle-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 1.00125,21.0012L 22.9975,21.0012L 12.0025,2.0025"> 
+      <path d="M 1.00125,21.0012L 22.9975,21.0012L 12.0025,2.0025"></path>
     </svg>
   </div>
 </template>

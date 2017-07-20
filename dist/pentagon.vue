@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="pentagon-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 12,2.5L 2,9.8L 5.8,21.5L 18.2,21.5L 22,9.8L 12,2.5 Z "> 
+      <path d="M 12,2.5L 2,9.8L 5.8,21.5L 18.2,21.5L 22,9.8L 12,2.5 Z "></path>
     </svg>
   </div>
 </template>

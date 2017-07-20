@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="plane-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 2.0103,21L 23.0003,12L 2.0103,3L 2.0003,10L 17.0003,12L 2.0003,14L 2.0103,21 Z "> 
+      <path d="M 2.0103,21L 23.0003,12L 2.0103,3L 2.0003,10L 17.0003,12L 2.0003,14L 2.0103,21 Z "></path>
     </svg>
   </div>
 </template>

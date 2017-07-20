@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="chart-histogram-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 3,3L 5,3L 5,13L 9,13L 9,7L 13,7L 13,11L 17,11L 17,15L 21,15L 21,21L 3,21L 3,3 Z "> 
+      <path d="M 3,3L 5,3L 5,13L 9,13L 9,7L 13,7L 13,11L 17,11L 17,15L 21,15L 21,21L 3,21L 3,3 Z "></path>
     </svg>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="flash-off-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 17,10L 13,10L 17,2L 7,2L 7,4.18L 15.46,12.64M 3.27,3L 2,4.27L 7,9.27L 7,13L 10,13L 10,22L 13.58,15.86L 17.73,20L 19,18.73L 3.27,3 Z "> 
+      <path d="M 17,10L 13,10L 17,2L 7,2L 7,4.18L 15.46,12.64M 3.27,3L 2,4.27L 7,9.27L 7,13L 10,13L 10,22L 13.58,15.86L 17.73,20L 19,18.73L 3.27,3 Z "></path>
     </svg>
   </div>
 </template>

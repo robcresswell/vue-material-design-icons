@@ -1,5 +1,9 @@
 {{#names}}
+import {{pascal}} from './{{name}}.vue'
+{{/names}}
+
+{{#names}}
 {{=<% %>=}}
-  export{ <%pascal%> } from './<%name%>.vue'
+  export{ <%pascal%> }
 <%={{ }}=%>
 {{/names}}

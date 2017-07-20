@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="flickr-before-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path> 
+      <path></path>
     </svg>
   </div>
 </template>

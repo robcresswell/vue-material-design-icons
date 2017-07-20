@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="play-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 7.99939,5.13684L 7.99939,19.1368L 18.9994,12.1368L 7.99939,5.13684 Z "> 
+      <path d="M 7.99939,5.13684L 7.99939,19.1368L 18.9994,12.1368L 7.99939,5.13684 Z "></path>
     </svg>
   </div>
 </template>

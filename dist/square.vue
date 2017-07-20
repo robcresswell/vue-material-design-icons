@@ -1,7 +1,7 @@
 <template>
   <div class="material-design-icon" id="square-icon">
     <svg width="24" height="24" viewBox="0 0 24 24">
-      <path d="M 3,3L 3,21L 21,21L 21,3"> 
+      <path d="M 3,3L 3,21L 21,21L 21,3"></path>
     </svg>
   </div>
 </template>
