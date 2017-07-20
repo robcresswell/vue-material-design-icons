@@ -4,7 +4,7 @@
   "main": "build.js",
   "author": "Rob Cresswell <robert.cresswell@outlook.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "mustache": "^2.3.0"
   },
   "scripts": {
