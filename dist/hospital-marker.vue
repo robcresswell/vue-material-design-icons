@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="hospital-marker-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 11.9993,1.99813C 15.8643,1.99813 18.9993,5.13208 18.9993,8.99813C 18.9993,14.2481 11.9993,21.9981 11.9993,21.9981C 11.9993,21.9981 4.99931,14.2481 4.99931,8.99813C 4.99931,5.13208 8.13432,1.99813 11.9993,1.99813 Z M 9,6L 9,12L 11,12L 11,10L 13,10L 13,12L 15,12L 15,6L 13,6L 13,8L 11,8L 11,6L 9,6 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

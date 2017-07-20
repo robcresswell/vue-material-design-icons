@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="camera-gopro-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 20,5L 15,5C 13.8954,5 13,5.8954 13,7L 13,12C 13,13.1046 13.8954,14 15,14L 20,14C 21.1046,14 22,13.1046 22,12L 22,7C 22,5.8954 21.1046,5 20,5 Z M 17.5,12.5C 15.8431,12.5 14.5,11.1569 14.5,9.5C 14.5,7.8431 15.8431,6.5 17.5,6.5C 19.1569,6.5 20.5,7.8431 20.5,9.5C 20.5,11.1569 19.1569,12.5 17.5,12.5 Z M 17.5,11C 16.6716,11 16,10.3284 16,9.5C 16,8.6716 16.6716,8 17.5,8C 18.3284,8 19,8.6716 19,9.5C 19,10.3284 18.3284,11 17.5,11 Z M 12,15L 12,5L 4,5C 2.89543,5 2,5.8954 2,7L 2,17C 2,18.1046 2.89543,19 4,19L 20,19C 21.1046,19 22,18.1046 22,17L 22,15L 12,15 Z M 10,12L 4,12L 4,7L 10,7L 10,12 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

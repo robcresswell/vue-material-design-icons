@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="lan-connect-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 4,1C 2.892,1 2,1.892 2,3L 2,7C 2,8.108 2.892,9 4,9L 1,9L 1,11L 13,11L 13,9L 10,9C 11.108,9 12,8.108 12,7L 12,3C 12,1.892 11.108,1 10,1L 4,1 Z M 4,3L 10,3L 10,7L 4,7L 4,3 Z M 3,13L 3,18L 3,20L 10,20L 10,18L 5,18L 5,13L 3,13 Z M 14,13C 12.892,13 12,13.892 12,15L 12,19C 12,20.108 12.892,21 14,21L 11,21L 11,23L 23,23L 23,21L 20,21C 21.108,21 22,20.108 22,19L 22,15C 22,13.892 21.108,13 20,13L 14,13 Z M 14,15L 20,15L 20,19L 14,19L 14,15 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

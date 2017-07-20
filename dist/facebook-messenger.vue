@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="facebook-messenger-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 12,2C 6.5,2 2,6.14 2,11.25C 2,14.13 3.42,16.7 5.65,18.4L 5.71,22L 9.16,20.12L 9.13,20.11C 10.04,20.36 11,20.5 12,20.5C 17.5,20.5 22,16.36 22,11.25C 22,6.14 17.5,2 12,2M 13.03,14.41L 10.54,11.78L 5.5,14.41L 10.88,8.78L 13.46,11.25L 18.31,8.78L 13.03,14.41 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

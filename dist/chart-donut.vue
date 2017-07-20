@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="chart-donut-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 13,2.05L 13,5.08008C 16.39,5.57 19,8.47 19,12C 19,12.9 18.82,13.75 18.52,14.54L 21.12,16.07C 21.68,14.83 22,13.45 22,12C 22,6.82 18.05,2.55 13,2.05 Z M 12,19C 8.13,19 5,15.87 5,12C 5,8.47 7.61,5.57 11,5.08008L 11,2.05C 5.94,2.55 2,6.81 2,12C 2,17.52 6.47,22 11.99,22C 15.3,22 18.23,20.39 20.05,17.91L 17.45,16.38C 16.1699,17.98 14.21,19 12,19 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

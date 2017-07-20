@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="locker-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 8,2L 16,2C 17.1046,2 18,2.89543 18,4L 18,20C 18,21.1046 17.1046,22 16,22L 8,22C 6.89543,22 6,21.1046 6,20L 6,4C 6,2.89543 6.89543,2 8,2 Z M 8,4.00001L 8,20L 16,20L 16,4.00001L 8,4.00001 Z M 10,13L 12,13L 12,17L 10,17L 10,13 Z M 10,6L 14,6L 14,7.50001L 10,7.50001L 10,6 Z M 10,9L 14,9L 14,10.5L 10,10.5L 10,9 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

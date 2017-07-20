@@ -1,0 +1,13 @@
+{
+  "name": "vue-material-design-icons",
+  "version": "0.1.0",
+  "main": "build.js",
+  "author": "Rob Cresswell <robert.cresswell@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}

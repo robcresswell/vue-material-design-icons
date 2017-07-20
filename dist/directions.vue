@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="directions-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 13.9994,14.4981L 13.9994,11.9981L 9.9994,11.9981L 9.9994,14.9981L 7.9994,14.9981L 7.9994,10.9981C 7.9994,10.4451 8.4464,9.99807 8.9994,9.99807L 13.9994,9.99807L 13.9994,7.49807L 17.4994,10.9981M 21.7064,11.2921L 12.7054,2.29307L 12.7034,2.29107C 12.3144,1.90006 11.6804,1.90006 11.2914,2.29207L 2.29139,11.2921C 1.9014,11.6831 1.9004,12.3151 2.29139,12.7061L 11.2914,21.7061C 11.6834,22.0947 12.3144,22.0961 12.7054,21.7061L 21.7064,12.7061C 22.0974,12.3151 22.0974,11.6831 21.7064,11.2921 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

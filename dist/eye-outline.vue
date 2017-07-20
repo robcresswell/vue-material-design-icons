@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="eye-outline-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 12,8.99992C 13.657,8.99992 15,10.3429 15,11.9999C 15,13.6569 13.657,14.9999 12,14.9999C 10.343,14.9999 9,13.6569 9,11.9999C 9,10.3429 10.343,8.99992 12,8.99992 Z M 12,4.5C 17.0029,4.5 21.272,7.611 22.9999,12C 21.272,16.389 17.0029,19.5 12,19.5C 6.99796,19.5 2.72797,16.389 0.99998,12C 2.72797,7.611 6.99796,4.5 12,4.5 Z M 3.18297,12C 4.82554,15.3555 8.23896,17.5 12,17.5C 15.7591,17.5 19.1732,15.3555 20.8164,12C 19.1732,8.64454 15.7591,6.5 12,6.5C 8.23961,6.5 4.82554,8.64454 3.18297,12 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>

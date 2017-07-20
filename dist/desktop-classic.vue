@@ -1,0 +1,25 @@
+<template>
+  <div class="material-design-icon" id="desktop-classic-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M 6,2C 4.89,2 4,2.89 4,4L 4,12C 4,13.11 4.89,14 6,14L 18,14C 19.11,14 20,13.11 20,12L 20,4C 20,2.89 19.11,2 18,2L 6,2 Z M 6,4L 18,4L 18,12L 6,12L 6,4 Z M 4,15C 2.89,15 2,15.89 2,17L 2,20C 2,21.11 2.89,22 4,22L 20,22C 21.11,22 22,21.11 22,20L 22,17C 22,15.89 21.11,15 20,15L 4,15 Z M 8,17L 20,17L 20,20L 8,20L 8,17 Z M 9,17.75L 9,19.25L 13,19.25L 13,17.75L 9,17.75 Z M 15,17.75L 15,19.25L 19,19.25L 19,17.75L 15,17.75 Z "> 
+    </svg>
+  </div>
+</template>
+
+<style>
+  .material-design-icon {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    height: 1em;
+    width: 1em;
+
+    > svg {
+      height: 1em;
+      width: 1em;
+      bottom: -0.125em;
+      position: absolute;
+      fill: currentColor;
+    }
+  }
+</style>
