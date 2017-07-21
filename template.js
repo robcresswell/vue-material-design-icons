@@ -11,15 +11,10 @@
   .material-design-icon {
     display: inline-flex;
     align-self: center;
-    position: relative;
-    height: 1em;
-    width: 1em;
 
     > svg {
       height: 1em;
       width: 1em;
-      bottom: -0.125em;
-      position: absolute;
       fill: currentColor;
     }
   }
