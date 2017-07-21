@@ -20,8 +20,8 @@
     "mustache": "^2.3.0"
   },
   "bugs": {
-   "url": ""
-  }.
+    "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
+  },
   "scripts": {
     "build": "node build.js",
     "prepublish": "npm run build && cd ./dist"
