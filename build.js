@@ -3,8 +3,7 @@ const mustache = require('mustache')
 const path = require('path')
 
 const dist = path.resolve(__dirname, 'dist')
-const template = path.resolve(__dirname, 'template.js')
-const indexTemplate = path.resolve(__dirname, 'indexTemplate.js')
+const template = path.resolve(__dirname, 'template.mst')
 const svgPath = path.resolve(__dirname, 'MaterialDesign/icons/svg')
 
 const svgs = fs.readdirSync(svgPath)
