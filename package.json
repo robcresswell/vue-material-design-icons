@@ -1,7 +1,7 @@
 {
   "name": "vue-material-design-icons",
   "version": "0.1.0",
-  "main": "dist/index.js",
+  "main": "build.js",
   "author": "Rob Cresswell <robert.cresswell@outlook.com>",
   "license": "MIT",
   "description": "A collection of material icons as Vue single file components",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "mustache": "^2.3.0"
   },
+  "homepage": "https://gitlab.com/robcresswell/vue-material-design-icons",
   "bugs": {
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
