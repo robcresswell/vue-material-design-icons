@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="currency-chf-icon">
+  <div class="material-design-icon" id="currency-chf-icon" role="img" aria-labelledby="currency-chf-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="currency-chf-title">Currency chf icon</title>
       <path d="M 7,3L 18,3L 18,5L 9,5L 9,11L 17,11L 17,13L 9,13L 9,16L 11,16L 11,18L 9,18L 9,21L 7,21L 7,18L 5,18L 5,16L 7,16L 7,3 Z "></path>
     </svg>
   </div>

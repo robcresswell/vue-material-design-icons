@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="step-backward-2-icon">
+  <div class="material-design-icon" id="step-backward-2-icon" role="img" aria-labelledby="step-backward-2-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="step-backward-2-title">Step backward 2 icon</title>
       <path d="M 16.9988,5.00126L 14,5.00126L 14,19L 16.9988,19L 16.9988,5.00126 Z M 11.9987,5.00001L 0.997503,12.0025L 11.9987,18.9988L 11.9987,5.00001 Z M 22,5.00126L 19.0012,5.00126L 19.0012,19L 22,19L 22,5.00126 Z "></path>
     </svg>
   </div>

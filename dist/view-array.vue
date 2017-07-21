@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="view-array-icon">
+  <div class="material-design-icon" id="view-array-icon" role="img" aria-labelledby="view-array-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="view-array-title">View array icon</title>
       <path d="M 8,18L 17,18L 17,5L 8,5M 18,5L 18,18L 21,18L 21,5M 4,18L 7,18L 7,5L 4,5L 4,18 Z "></path>
     </svg>
   </div>

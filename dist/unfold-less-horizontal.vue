@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="unfold-less-horizontal-icon">
+  <div class="material-design-icon" id="unfold-less-horizontal-icon" role="img" aria-labelledby="unfold-less-horizontal-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="unfold-less-horizontal-title">Unfold less horizontal icon</title>
       <path d="M 16.59,5.41L 15.17,4L 12,7.17L 8.83,4L 7.41,5.41L 12,10M 7.41,18.59L 8.83,20L 12,16.83L 15.17,20L 16.58,18.59L 12,14L 7.41,18.59 Z "></path>
     </svg>
   </div>

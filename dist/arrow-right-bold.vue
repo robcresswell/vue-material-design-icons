@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="arrow-right-bold-icon">
+  <div class="material-design-icon" id="arrow-right-bold-icon" role="img" aria-labelledby="arrow-right-bold-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="arrow-right-bold-title">Arrow right bold icon</title>
       <path d="M 4,15L 4,9L 12,9.00001L 12,4.16116L 19.8388,12L 12,19.8388L 12,15L 4,15 Z "></path>
     </svg>
   </div>

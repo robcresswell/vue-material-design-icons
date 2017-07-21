@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="currency-eth-icon">
+  <div class="material-design-icon" id="currency-eth-icon" role="img" aria-labelledby="currency-eth-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="currency-eth-title">Currency eth icon</title>
       <path d="M 12,1.7502L 5.75,12.25L 12,16L 18.25,12.25L 12,1.7502 Z M 5.75,13.5L 12,22.2497L 18.25,13.5L 12,17.25L 5.75,13.5 Z "></path>
     </svg>
   </div>

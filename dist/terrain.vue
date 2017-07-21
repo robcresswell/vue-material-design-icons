@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="terrain-icon">
+  <div class="material-design-icon" id="terrain-icon" role="img" aria-labelledby="terrain-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="terrain-title">Terrain icon</title>
       <path d="M 13.9994,5.99807L 10.2494,10.9981L 13.0994,14.7981L 11.4994,15.9981C 9.8114,13.7481 6.99939,9.99807 6.99939,9.99807L 0.99939,17.9981L 22.9994,17.9981L 13.9994,5.99807 Z "></path>
     </svg>
   </div>

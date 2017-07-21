@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="menu-down-icon">
+  <div class="material-design-icon" id="menu-down-icon" role="img" aria-labelledby="menu-down-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="menu-down-title">Menu down icon</title>
       <path d="M 7,10L 12,15L 17,10L 7,10 Z "></path>
     </svg>
   </div>

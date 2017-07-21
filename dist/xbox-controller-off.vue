@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="xbox-controller-off-icon">
+  <div class="material-design-icon" id="xbox-controller-off-icon" role="img" aria-labelledby="xbox-controller-off-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="xbox-controller-off-title">Xbox controller off icon</title>
       <path d="M 2,5.26848L 3.27711,4L 20,20.7229L 18.7315,22L 12.4815,15.75L 8.75,15.75C 6.75,15.75 6,18 4,19C 2.01476,19 0.522174,16.0441 4.41889,7.68736L 2,5.26848 Z M 9.3259,6.22772L 14.6741,6.22772C 16,5.00001 18.8148,6.66676 18.8148,6.66676L 19.25,7.50001L 19.4933,7.50002C 23.0197,14.9811 22.2805,18.2017 20.6891,18.8664L 7.62304,5.80035C 8.25002,5.72719 8.87432,5.80958 9.3259,6.22772 Z M 12,7.00001C 11.4477,7.00001 11,7.44773 11,8.00001C 11,8.55229 11.4477,9.00001 12,9.00001C 12.5523,9.00001 13,8.55229 13,8.00001C 13,7.44773 12.5523,7.00001 12,7.00001 Z "></path>
     </svg>
   </div>

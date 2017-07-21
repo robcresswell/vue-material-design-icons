@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="view-stream-icon">
+  <div class="material-design-icon" id="view-stream-icon" role="img" aria-labelledby="view-stream-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="view-stream-title">View stream icon</title>
       <path d="M 4,5L 4,11L 21,11L 21,5M 4,18L 21,18L 21,12L 4,12L 4,18 Z "></path>
     </svg>
   </div>

@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="view-parallel-icon">
+  <div class="material-design-icon" id="view-parallel-icon" role="img" aria-labelledby="view-parallel-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="view-parallel-title">View parallel icon</title>
       <path d="M 4,21L 4,3L 8,3L 8,21L 4,21 Z M 10,21L 10,3.00001L 14,3.00001L 14,21L 10,21 Z M 16,21L 16,3L 20,3L 20,21L 16,21 Z "></path>
     </svg>
   </div>

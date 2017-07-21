@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="sort-variant-icon">
+  <div class="material-design-icon" id="sort-variant-icon" role="img" aria-labelledby="sort-variant-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="sort-variant-title">Sort variant icon</title>
       <path d="M 3,13L 15,13L 15,11L 3,11M 3,6L 3,8L 21,8L 21,6M 3,18L 9,18L 9,16L 3,16L 3,18 Z "></path>
     </svg>
   </div>

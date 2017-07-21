@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="chevron-up-icon">
+  <div class="material-design-icon" id="chevron-up-icon" role="img" aria-labelledby="chevron-up-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="chevron-up-title">Chevron up icon</title>
       <path d="M 7.41351,15.4121L 11.9995,10.8261L 16.5855,15.4121L 17.9995,13.9981L 11.9995,7.99807L 5.99951,13.9981L 7.41351,15.4121 Z "></path>
     </svg>
   </div>

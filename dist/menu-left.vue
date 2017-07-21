@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="menu-left-icon">
+  <div class="material-design-icon" id="menu-left-icon" role="img" aria-labelledby="menu-left-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="menu-left-title">Menu left icon</title>
       <path d="M 14,7L 9,12L 14,17L 14,7 Z "></path>
     </svg>
   </div>

@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="subdirectory-arrow-left-icon">
+  <div class="material-design-icon" id="subdirectory-arrow-left-icon" role="img" aria-labelledby="subdirectory-arrow-left-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="subdirectory-arrow-left-title">Subdirectory arrow left icon</title>
       <path d="M 11,9L 12.42,10.42L 8.83,14L 18,14L 18,4L 20,4L 20,16L 8.83,16L 12.42,19.58L 11,21L 5,15L 11,9 Z "></path>
     </svg>
   </div>

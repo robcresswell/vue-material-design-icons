@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="hand-pointing-right-icon">
+  <div class="material-design-icon" id="hand-pointing-right-icon" role="img" aria-labelledby="hand-pointing-right-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="hand-pointing-right-title">Hand pointing right icon</title>
       <path d="M 21.0006,8.99999C 21.5529,8.99999 22.0006,9.44771 22.0006,9.99999C 22.0006,10.5523 21.5529,11 21.0006,11L 16.5274,11L 16.398,12.2097L 14.2037,17.1461C 13.9826,17.648 13.4663,18 12.864,18L 8.5,18C 7.69706,18 7.00057,17.2727 7.00057,16.5L 7.00057,9.99996C 7.00057,9.61364 7.16349,9.26367 7.42676,9.01033L 11.6275,4.10066L 12.3984,4.83906C 12.5962,5.02872 12.7184,5.29121 12.7184,5.58097L 12.6944,5.80216L 11.0006,8.99996L 21.0006,8.99999 Z M 2,18L 2.00057,9.99996L 5.00057,9.99996L 5.00057,18L 2,18 Z "></path>
     </svg>
   </div>

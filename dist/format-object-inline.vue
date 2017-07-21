@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="format-object-inline-icon">
+  <div class="material-design-icon" id="format-object-inline-icon" role="img" aria-labelledby="format-object-inline-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="format-object-inline-title">Format object inline icon</title>
       <path d="M 8,7.00001L 13,17L 3,17L 8,7.00001 Z M 3,3L 21,3L 21,5L 3,5L 3,3 Z M 21,15L 21,17L 14,17L 14,15L 21,15 Z M 3,19L 21,19L 21,21L 3,21L 3,19 Z "></path>
     </svg>
   </div>

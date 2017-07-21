@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="reply-all-icon">
+  <div class="material-design-icon" id="reply-all-icon" role="img" aria-labelledby="reply-all-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="reply-all-title">Reply all icon</title>
       <path d="M 13,9L 13,5L 6,12L 13,19L 13,14.9C 18,14.9 21.5,16.5 24,20C 23,15 20,10 13,9 Z M 7,8L 7,5L 0,12L 7,19L 7,16L 3,12L 7,8 Z "></path>
     </svg>
   </div>

@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="exclamation-icon">
+  <div class="material-design-icon" id="exclamation-icon" role="img" aria-labelledby="exclamation-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="exclamation-title">Exclamation icon</title>
       <path d="M 11,4.5L 13,4.5L 13,15.5L 11,15.5L 11,4.5 Z M 13,17.5L 13,19.5L 11,19.5L 11,17.5L 13,17.5 Z "></path>
     </svg>
   </div>

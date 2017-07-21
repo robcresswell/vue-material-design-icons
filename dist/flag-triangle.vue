@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="flag-triangle-icon">
+  <div class="material-design-icon" id="flag-triangle-icon" role="img" aria-labelledby="flag-triangle-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="flag-triangle-title">Flag triangle icon</title>
       <path d="M 7,2L 9,2L 9,22L 7,22L 7,2 Z M 19,9.00001L 11,14.6L 11,3.40001L 19,9.00001 Z "></path>
     </svg>
   </div>

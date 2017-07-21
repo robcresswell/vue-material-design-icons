@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="square-outline-icon">
+  <div class="material-design-icon" id="square-outline-icon" role="img" aria-labelledby="square-outline-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="square-outline-title">Square outline icon</title>
       <path d="M 3,3L 21,3L 21,21L 3,21L 3,3 Z M 5,5L 5,19L 19,19L 19,5L 5,5 Z "></path>
     </svg>
   </div>

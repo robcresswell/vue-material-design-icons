@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="apple-mobileme-icon">
+  <div class="material-design-icon" id="apple-mobileme-icon" role="img" aria-labelledby="apple-mobileme-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="apple-mobileme-title">Apple mobileme icon</title>
       <path d="M 22,15.0445C 22,17.2291 20.2422,19 18.0733,19L 5.92668,19C 3.75779,19 2.00001,17.2291 2.00001,15.0445C 2.00001,13.0713 3.43333,11.4367 5.3089,11.1378C 5.28446,10.9991 5.27111,10.8569 5.27111,10.7102C 5.27111,9.326 6.38445,8.20378 7.76002,8.20378C 8.37335,8.20378 8.93555,8.42712 9.36668,8.79867C 10.14,7.04512 11.1311,5.44445 13.9089,5.44445C 17.2778,5.44445 18.8734,8.06267 18.8734,10.8251C 18.8734,10.9407 18.8689,11.0551 18.8622,11.1684C 20.6533,11.536 22,13.1316 22,15.0445 Z "></path>
     </svg>
   </div>

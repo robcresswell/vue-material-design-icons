@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="skip-backward-icon">
+  <div class="material-design-icon" id="skip-backward-icon" role="img" aria-labelledby="skip-backward-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="skip-backward-title">Skip backward icon</title>
       <path d="M 20,5L 20,18.9988L 12.9975,12.0025M 6.00125,5L 6.00125,18.9988L 3.99875,18.9988L 3.99875,5M 12.9975,5L 12.9975,18.9988L 6.00125,12.0025"></path>
     </svg>
   </div>

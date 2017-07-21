@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="square-inc-icon">
+  <div class="material-design-icon" id="square-inc-icon" role="img" aria-labelledby="square-inc-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="square-inc-title">Square inc icon</title>
       <path d="M 6,3L 18,3C 19.6569,3 21,4.34315 21,6L 21,18C 21,19.6569 19.6569,21 18,21L 6,21C 4.34314,21 3,19.6569 3,18L 3,6C 3,4.34315 4.34314,3 6,3 Z M 7,6.00001C 6.44771,6.00001 6,6.44772 6,7.00001L 6,17C 6,17.5523 6.44771,18 7,18L 17,18C 17.5523,18 18,17.5523 18,17L 18,7.00001C 18,6.44772 17.5523,6.00001 17,6.00001L 7,6.00001 Z M 9.5,9.00001L 14.5,9.00001C 14.7761,9.00001 15,9.22387 15,9.50001L 15,14.5C 15,14.7761 14.7761,15 14.5,15L 9.5,15C 9.22385,15 9,14.7761 9,14.5L 9,9.50001C 9,9.22387 9.22385,9.00001 9.5,9.00001 Z "></path>
     </svg>
   </div>

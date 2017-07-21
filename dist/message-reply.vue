@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="message-reply-icon">
+  <div class="material-design-icon" id="message-reply-icon" role="img" aria-labelledby="message-reply-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="message-reply-title">Message reply icon</title>
       <path d="M 21.9891,3.99805C 21.9891,2.89404 21.1031,1.99805 19.9991,1.99805L 3.99913,1.99805C 2.89512,1.99805 1.99913,2.89404 1.99913,3.99805L 1.99913,15.998C 1.99913,17.1021 2.89512,17.998 3.99913,17.998L 17.9991,17.998L 21.9991,21.998L 21.9891,3.99805 Z "></path>
     </svg>
   </div>

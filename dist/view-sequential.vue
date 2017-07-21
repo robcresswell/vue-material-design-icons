@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="view-sequential-icon">
+  <div class="material-design-icon" id="view-sequential-icon" role="img" aria-labelledby="view-sequential-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="view-sequential-title">View sequential icon</title>
       <path d="M 3,4L 21,4L 21,8L 3,8L 3,4 Z M 3,10L 21,10L 21,14L 3,14L 3,10 Z M 3,16L 21,16L 21,20L 3,20L 3,16 Z "></path>
     </svg>
   </div>

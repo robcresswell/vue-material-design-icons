@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="flickr-after-icon">
+  <div class="material-design-icon" id="flickr-after-icon" role="img" aria-labelledby="flickr-after-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="flickr-after-title">Flickr after icon</title>
       <path></path>
     </svg>
   </div>

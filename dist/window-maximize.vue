@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="window-maximize-icon">
+  <div class="material-design-icon" id="window-maximize-icon" role="img" aria-labelledby="window-maximize-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="window-maximize-title">Window maximize icon</title>
       <path d="M 4,4L 20,4.00001L 20,20L 4,20L 4,4 Z M 6.00001,8L 6,18L 18,18L 18,8L 6.00001,8 Z "></path>
     </svg>
   </div>

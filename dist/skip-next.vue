@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="skip-next-icon">
+  <div class="material-design-icon" id="skip-next-icon" role="img" aria-labelledby="skip-next-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="skip-next-title">Skip next icon</title>
       <path d="M 16,18L 18,18L 18,5.99999L 16,5.99999M 6,18L 14.5,12L 6,5.99999L 6,18 Z "></path>
     </svg>
   </div>

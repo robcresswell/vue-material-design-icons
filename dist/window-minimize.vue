@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="window-minimize-icon">
+  <div class="material-design-icon" id="window-minimize-icon" role="img" aria-labelledby="window-minimize-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="window-minimize-title">Window minimize icon</title>
       <path d="M 20,14L 4,14L 4,10L 20,10"></path>
     </svg>
   </div>

@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="bandcamp-icon">
+  <div class="material-design-icon" id="bandcamp-icon" role="img" aria-labelledby="bandcamp-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="bandcamp-title">Bandcamp icon</title>
       <path d="M 22,6L 15.4915,18L 2,18L 8.50847,6L 22,6 Z "></path>
     </svg>
   </div>

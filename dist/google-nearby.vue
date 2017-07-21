@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="google-nearby-icon">
+  <div class="material-design-icon" id="google-nearby-icon" role="img" aria-labelledby="google-nearby-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="google-nearby-title">Google nearby icon</title>
       <path d="M 21.36,10.46L 13.54,2.64C 12.689,1.7906 11.311,1.7906 10.46,2.64L 2.64,10.46C 1.79065,11.311 1.79065,12.689 2.64,13.54L 10.46,21.36C 11.311,22.2093 12.689,22.2093 13.54,21.36L 21.36,13.54C 22.2094,12.689 22.2094,11.311 21.36,10.46 Z M 12,19L 5,12L 12,5L 19,12L 12,19 Z M 16.5,12L 12,16.5L 7.5,12L 12,7.5L 16.5,12 Z "></path>
     </svg>
   </div>

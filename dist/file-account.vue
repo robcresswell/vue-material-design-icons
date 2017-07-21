@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="file-account-icon">
+  <div class="material-design-icon" id="file-account-icon" role="img" aria-labelledby="file-account-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="file-account-title">File account icon</title>
       <path d="M 12.9994,8.99807L 18.4994,8.99807L 12.9994,3.49807L 12.9994,8.99807 Z M 5.99939,1.99808L 13.9994,1.99808L 19.9994,7.99807L 19.9994,19.9981C 19.9994,21.1021 19.1034,21.9981 17.9994,21.9981L 5.98938,21.9981C 4.88538,21.9981 3.99939,21.1021 3.99939,19.9981L 4.0094,3.99807C 4.0094,2.89407 4.89437,1.99808 5.99939,1.99808 Z M 14,20L 14,19C 14,17.668 11.333,17 10,17C 8.66699,17 6,17.668 6,19L 6,20L 14,20 Z M 10,12C 8.89648,12 8,12.896 8,14C 8,15.103 8.89648,16 10,16C 11.1035,16 12,15.103 12,14C 12,12.896 11.1035,12 10,12 Z "></path>
     </svg>
   </div>

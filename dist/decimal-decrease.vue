@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="decimal-decrease-icon">
+  <div class="material-design-icon" id="decimal-decrease-icon" role="img" aria-labelledby="decimal-decrease-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="decimal-decrease-title">Decimal decrease icon</title>
       <path d="M 12,17L 15,20L 15,18L 21,18L 21,16L 15,16L 15,14L 12,17 Z M 8.99999,5.00002C 10.6568,5.00002 12,6.34316 12,8.00002L 12,11C 12,12.6569 10.6568,14 9,14C 7.34314,14 6,12.6569 6,11L 5.99999,8.00002C 5.99999,6.34316 7.34314,5.00002 8.99999,5.00002 Z M 8.99999,7.00001C 8.44771,7.00001 7.99999,7.44773 7.99999,8.00001L 8,11C 8,11.5523 8.44771,12 9,12C 9.55228,12 10,11.5523 10,11L 9.99999,8.00001C 9.99999,7.44773 9.55228,7.00001 8.99999,7.00001 Z M 4,12C 4.55228,12 5,12.4477 5,13C 5,13.5523 4.55228,14 4,14C 3.44772,14 3,13.5523 3,13C 3,12.4477 3.44772,12 4,12 Z "></path>
     </svg>
   </div>

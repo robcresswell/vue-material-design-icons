@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="flask-empty-outline-icon">
+  <div class="material-design-icon" id="flask-empty-outline-icon" role="img" aria-labelledby="flask-empty-outline-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="flask-empty-outline-title">Flask empty outline icon</title>
       <path d="M 5,19C 5,19.5523 5.44771,20 6,20L 18,20C 18.5523,20 19,19.5523 19,19C 19,18.7862 18.9329,18.5881 18.8186,18.4255L 13,8.34736L 13,3.99999L 11,4L 11,8.34737L 5.18138,18.4255C 5.0671,18.5881 5,18.7862 5,19 Z M 6,22C 4.34314,22 3,20.6569 3,19C 3,18.3969 3.17796,17.8354 3.48423,17.3651L 9,7.81148L 9,6.00001C 8.44771,6.00001 8,5.55229 8,5L 8,4.00001C 8,2.89544 8.89543,2.00001 10,2.00001L 14,2C 15.1046,2 16,2.89543 16,4L 16,4.99999C 16,5.55228 15.5523,6 15,6L 15,7.81147L 20.5158,17.3651C 20.822,17.8354 21,18.3969 21,19C 21,20.6568 19.6569,22 18,22L 6,22 Z "></path>
     </svg>
   </div>

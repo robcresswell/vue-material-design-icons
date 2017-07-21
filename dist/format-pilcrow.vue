@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="format-pilcrow-icon">
+  <div class="material-design-icon" id="format-pilcrow-icon" role="img" aria-labelledby="format-pilcrow-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="format-pilcrow-title">Format pilcrow icon</title>
       <path d="M 10,11C 7.79086,11 6,9.20914 6,7C 6,4.79086 7.79086,3 10,3L 18,3L 18,5L 16,5L 16,21L 14,21L 14,5L 12,5L 12,21L 10,21L 10,11 Z "></path>
     </svg>
   </div>

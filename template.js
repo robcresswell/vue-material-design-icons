@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="{{name}}-icon">
+  <div class="material-design-icon" id="{{name}}-icon" role="img" aria-labelledby="{{name}}-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="{{name}}-title">{{readableName}} icon</title>
       <path{{{path}}}></path>
     </svg>
   </div>

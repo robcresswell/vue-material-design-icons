@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="desktop-mac-icon">
+  <div class="material-design-icon" id="desktop-mac-icon" role="img" aria-labelledby="desktop-mac-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="desktop-mac-title">Desktop mac icon</title>
       <path d="M 20.9994,13.9981L 2.99941,13.9981L 2.99941,3.99807L 20.9994,3.99807M 20.9994,1.99807L 2.99941,1.99807C 1.89441,1.99807 0.99941,2.89406 0.99941,3.99807L 0.99941,15.9981C 0.99941,17.1031 1.89441,17.9981 2.99941,17.9981L 9.99941,17.9981L 7.99941,20.9981L 7.99941,21.9981L 15.9994,21.9981L 15.9994,20.9981L 13.9994,17.9981L 20.9994,17.9981C 22.1034,17.9981 22.9994,17.1031 22.9994,15.9981L 22.9994,3.99807C 22.9994,2.89406 22.1034,1.99807 20.9994,1.99807 Z "></path>
     </svg>
   </div>

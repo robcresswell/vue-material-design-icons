@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="apple-keyboard-option-icon">
+  <div class="material-design-icon" id="apple-keyboard-option-icon" role="img" aria-labelledby="apple-keyboard-option-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="apple-keyboard-option-title">Apple keyboard option icon</title>
       <path d="M 3,4L 9.10919,4L 16.1482,18L 21,18L 21,20L 14.8807,20L 7.84053,6L 3,6L 3,4 Z M 14,4L 21,4L 21,6L 14,6L 14,4 Z "></path>
     </svg>
   </div>

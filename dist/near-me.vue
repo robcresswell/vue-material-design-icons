@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="near-me-icon">
+  <div class="material-design-icon" id="near-me-icon" role="img" aria-labelledby="near-me-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="near-me-title">Near me icon</title>
       <path d="M 21,3L 3,10.53L 3,11.51L 9.84,14.16L 12.48,21L 13.46,21L 21,3 Z "></path>
     </svg>
   </div>

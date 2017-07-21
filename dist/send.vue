@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="send-icon">
+  <div class="material-design-icon" id="send-icon" role="img" aria-labelledby="send-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="send-title">Send icon</title>
       <path d="M 2.01,21L 23,12L 2.01,3L 2,10L 17,12L 2,14L 2.01,21 Z "></path>
     </svg>
   </div>

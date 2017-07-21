@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="account-edit-icon">
+  <div class="material-design-icon" id="account-edit-icon" role="img" aria-labelledby="account-edit-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="account-edit-title">Account edit icon</title>
       <path d="M 21.7,13.35L 20.7,14.35L 18.65,12.3L 19.65,11.3C 19.8639,11.0904 20.2061,11.0904 20.42,11.3L 21.7,12.58C 21.9096,12.7939 21.9096,13.1361 21.7,13.35 Z M 12,18.94L 18.06,12.88L 20.11,14.93L 14.06,21L 12,21L 12,18.94 Z M 12,14C 7.58,14 4,15.79 4,18L 4,20L 10,20L 10,18.11L 14,14.11C 13.3368,14.0261 12.6684,13.9894 12,14 Z M 12,4C 9.79086,4 8,5.7909 8,8C 8,10.2091 9.79086,12 12,12C 14.2091,12 16,10.2091 16,8C 16,5.7909 14.2091,4 12,4 Z "></path>
     </svg>
   </div>

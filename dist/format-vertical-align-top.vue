@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="format-vertical-align-top-icon">
+  <div class="material-design-icon" id="format-vertical-align-top-icon" role="img" aria-labelledby="format-vertical-align-top-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="format-vertical-align-top-title">Format vertical align top icon</title>
       <path d="M 8,11L 11,11L 11,21L 13,21L 13,11L 16,11L 12,7L 8,11 Z M 4,3L 4,5L 20,5L 20,3L 4,3 Z "></path>
     </svg>
   </div>

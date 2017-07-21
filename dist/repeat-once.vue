@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="repeat-once-icon">
+  <div class="material-design-icon" id="repeat-once-icon" role="img" aria-labelledby="repeat-once-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="repeat-once-title">Repeat once icon</title>
       <path d="M 13,15L 13,9L 12,9L 10,10L 10,11L 11.5,11L 11.5,15M 17,17L 7,17L 7,14L 3,18L 7,22L 7,19L 19,19L 19,13L 17,13M 7,7L 17,7L 17,10L 21,6L 17,2L 17,5L 5,5L 5,11L 7,11L 7,7 Z "></path>
     </svg>
   </div>

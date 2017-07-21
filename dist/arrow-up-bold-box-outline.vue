@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="arrow-up-bold-box-outline-icon">
+  <div class="material-design-icon" id="arrow-up-bold-box-outline-icon" role="img" aria-labelledby="arrow-up-bold-box-outline-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="arrow-up-bold-box-outline-title">Arrow up bold box outline icon</title>
       <path d="M 12,7.00001L 17,12L 14,12L 14,16L 9.99996,16L 9.99996,12L 6.99996,12L 12,7.00001 Z M 19,21L 4.99999,21C 3.89542,21 2.99999,20.1046 2.99999,19L 2.99999,5.00001C 2.99999,3.89544 3.89542,3.00001 4.99999,3.00001L 19,3.00001C 20.1046,3.00001 21,3.89544 21,5.00001L 21,19C 21,20.1046 20.1046,21 19,21 Z M 19,19L 19,5.00001L 5,5.00001L 5,19L 19,19 Z "></path>
     </svg>
   </div>

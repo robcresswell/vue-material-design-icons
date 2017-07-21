@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="call-merge-icon">
+  <div class="material-design-icon" id="call-merge-icon" role="img" aria-labelledby="call-merge-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="call-merge-title">Call merge icon</title>
       <path d="M 17.0025,20.41L 18.4087,18.9988L 15,15.5913L 13.5887,17.0025M 7.5,7.9975L 11.0013,7.9975L 11.0013,13.5887L 5.59125,18.9988L 7.0025,20.41L 12.9975,14.4088L 12.9975,7.9975L 16.4988,7.9975L 12.0025,3.50073"></path>
     </svg>
   </div>

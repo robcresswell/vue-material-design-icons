@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="rhombus-outline-icon">
+  <div class="material-design-icon" id="rhombus-outline-icon" role="img" aria-labelledby="rhombus-outline-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="rhombus-outline-title">Rhombus outline icon</title>
       <path d="M 21.5,10.8L 13.2,2.5C 12.5,1.8 11.5,1.8 10.8,2.5L 2.5,10.8C 1.8,11.5 1.8,12.5 2.5,13.2L 10.8,21.5C 11.5,22.2 12.5,22.2 13.2,21.5L 21.5,13.2C 22.1,12.5 22.1,11.5 21.5,10.8M 20.3,12L 12,20.3L 3.7,12L 12,3.7L 20.3,12 Z "></path>
     </svg>
   </div>

@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="pentagon-icon">
+  <div class="material-design-icon" id="pentagon-icon" role="img" aria-labelledby="pentagon-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="pentagon-title">Pentagon icon</title>
       <path d="M 12,2.5L 2,9.8L 5.8,21.5L 18.2,21.5L 22,9.8L 12,2.5 Z "></path>
     </svg>
   </div>

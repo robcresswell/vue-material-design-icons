@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="stairs-icon">
+  <div class="material-design-icon" id="stairs-icon" role="img" aria-labelledby="stairs-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="stairs-title">Stairs icon</title>
       <path d="M 15,5L 15,9L 11,9L 11,13L 7,13L 7,17L 3,17L 3,20L 10,20L 10,16L 14,16L 14,12L 18,12L 18,8L 22,8L 22,5L 15,5 Z "></path>
     </svg>
   </div>

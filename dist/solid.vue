@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="solid-icon">
+  <div class="material-design-icon" id="solid-icon" role="img" aria-labelledby="solid-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="solid-title">Solid icon</title>
       <path d="M 0,0L 24,0L 24,24L 0,24"></path>
     </svg>
   </div>

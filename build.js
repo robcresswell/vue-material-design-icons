@@ -3,7 +3,7 @@ const mustache = require('mustache')
 const path = require('path')
 
 const dist = path.resolve(__dirname, 'dist')
-const componentTemplate = path.resolve(__dirname, 'componentTemplate.js')
+const template = path.resolve(__dirname, 'template.js')
 const indexTemplate = path.resolve(__dirname, 'indexTemplate.js')
 const svgPath = path.resolve(__dirname, 'MaterialDesign/icons/svg')
 
@@ -19,34 +19,25 @@ const getPath = (svg) => {
   }
 }
 
-const uppercaseFirstLetter = (word) => {
-  return word.charAt(0).toUpperCase() + word.slice(1)
-}
-
-const toPascal = (name) => {
-  let pascal = name.split('-').map(uppercaseFirstLetter).join('')
-  return pascal
+const makeHumanReadable = (name) => {
+  let spacedName = name.split('-').join(' ')
+  humanReadableName = spacedName.charAt(0).toUpperCase() + spacedName.slice(1)
+  return humanReadableName
 }
 
 let templateData = svgs.map(svg => {
+  let name = svg.slice(0, -4)
   return {
-    name: svg.slice(0, -4),
+    name: name,
+    readableName: makeHumanReadable(name),
     path: getPath(svg)
   } 
 })
 
-let componentFile = fs.readFileSync(componentTemplate, { encoding: 'utf8'})
+let componentFile = fs.readFileSync(template, { encoding: 'utf8'})
 
 for (data of templateData) {
   let component = mustache.render(componentFile, data)
   let filename = data.name + ".vue"
   fs.writeFileSync(path.resolve(dist, filename), component)
 }
-
-let indexFile = fs.readFileSync(indexTemplate, { encoding: 'utf8'})
-let componentNames = templateData.map(function(item) {
-  return { name: item.name, pascal: toPascal(item.name) }
-})
-let output = mustache.render(indexFile, { names: componentNames })
-
-fs.writeFileSync(path.resolve(dist, "index.js"), output)

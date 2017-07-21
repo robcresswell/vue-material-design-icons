@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="vector-point-icon">
+  <div class="material-design-icon" id="vector-point-icon" role="img" aria-labelledby="vector-point-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="vector-point-title">Vector point icon</title>
       <path d="M 12,20L 7,22L 12,11L 17,22L 12,20 Z M 8,2.00001L 16,2.00001L 16,5L 22,5L 22,7L 16,7L 16,10L 8,10L 8,7L 2,7L 2,5L 8,5L 8,2.00001 Z M 10,4.00001L 10,8L 14,8L 14,4.00001L 10,4.00001 Z "></path>
     </svg>
   </div>

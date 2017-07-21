@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="forward-icon">
+  <div class="material-design-icon" id="forward-icon" role="img" aria-labelledby="forward-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="forward-title">Forward icon</title>
       <path d="M 12,8L 12,4L 20,12L 12,20L 12,16L 4,16L 4,8L 12,8 Z "></path>
     </svg>
   </div>

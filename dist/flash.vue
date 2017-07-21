@@ -1,6 +1,7 @@
 <template>
-  <div class="material-design-icon" id="flash-icon">
+  <div class="material-design-icon" id="flash-icon" role="img" aria-labelledby="flash-title">
     <svg width="24" height="24" viewBox="0 0 24 24">
+      <title id="flash-title">Flash icon</title>
       <path d="M 7,2L 7,13L 10,13L 10,22L 17,10L 13,10L 17,2L 7,2 Z "></path>
     </svg>
   </div>
