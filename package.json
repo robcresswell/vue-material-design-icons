@@ -24,7 +24,6 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "build": "node build.js",
-    "prepublishOnly": "yarn && yarn build && cd ./dist"
+    "build": "node build.js"
   }
 }
