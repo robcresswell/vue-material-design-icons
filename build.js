@@ -36,6 +36,10 @@ let templateData = svgs.map(svg => {
 
 let componentFile = fs.readFileSync(template, { encoding: 'utf8'})
 
+if (!fs.existsSync(dist)) {
+  fs.mkdirSync(dist)
+}
+
 for (data of templateData) {
   let component = mustache.render(componentFile, data)
   let filename = data.name + ".vue"
