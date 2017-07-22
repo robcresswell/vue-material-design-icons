@@ -7,6 +7,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    name: "{{name}}-icon"
+  }
+</script>
+
 <style>
   .material-design-icon {
     display: inline-flex;
