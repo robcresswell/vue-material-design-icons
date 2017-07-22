@@ -1,6 +1,6 @@
 {
   "name": "vue-material-design-icons",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Rob Cresswell <robert.cresswell@outlook.com>",
   "license": "MIT",
   "description": "A collection of material icons as Vue single file components",
@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "node build.js",
-    "dist": "npm run build && cp package.json dist/ && npm publish dist"
+    "clean": "rm -r dist",
+    "dist": "npm run clean && npm run build && cp package.json dist/ && cd dist && npm publish"
   }
 }
