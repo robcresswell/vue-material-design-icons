@@ -24,8 +24,8 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "build": "node build.js",
+    "build": "npm run clean; node build.js && cp material-design-icon.css dist/",
     "clean": "rm -r dist",
-    "dist": "npm run clean && npm run build && cp package.json dist/ && cp README.md dist/ && cd dist && npm publish"
+    "dist": "npm run clean && npm run build && cp package.json dist/ && cp README.md dist/ && cp CHANGELOG.md dist/ && cd dist && npm publish"
   }
 }
