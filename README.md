@@ -19,7 +19,8 @@ OR
 $ yarn add vue-material-design-icons
 ```
 
-Then import wherever you'd like to use the icon, and declare it as a local component:
+Then import wherever you'd like to use the icon, and declare it as a local
+component:
 
 ```javascript
 import MenuIcon from 'vue-material-design-icons/menu.vue'
@@ -37,7 +38,8 @@ import MenuIcon from 'vue-material-design-icons/menu.vue'
 Vue.component('menu-icon', MenuIcon)
 ```
 
-Note that the icon files are kebab cased, for example "checkbox-marked-circle.vue"
+**Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
+their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
 
 Then use it in your code!
 
@@ -47,4 +49,7 @@ Then use it in your code!
 
 ## Credits
 
-[Templarian](https://github.com/Templarian "Templarian's GitHub profile") for the [MaterialDesign](https://github.com/Templarian/MaterialDesign "MaterialDesign Github page") project. This supplies the SVG icons for this project, which are packaged as Vue single file components.
+[Templarian](https://github.com/Templarian "Templarian's GitHub profile") for
+the [MaterialDesign](https://github.com/Templarian/MaterialDesign "MaterialDesign Github page")
+project. This supplies the SVG icons for this project, which are packaged as
+Vue single file components.
