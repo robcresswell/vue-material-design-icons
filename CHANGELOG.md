@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.6.1] - 2017-07-25
+
+### Fixed
+- Added the missing `CHANGELOG` entry for 0.6.0
+
+## [0.6.0] - 2017-07-25
+
+### Changed
+- Changed from the
+  [MaterialDesign](https://github.com/Templarian/MaterialDesign) repo to
+  [MaterialDesign-SVG](https://github.com/Templarian/MaterialDesign-SVG) repo
+  to take advantage of the smaller repo and compressed paths. Overall, this
+  reduces the size of this repo and its distributed icons. Yay!
+
 ## [0.5.0] - 2017-07-25
 
 ### Changed
