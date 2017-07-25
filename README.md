@@ -4,9 +4,6 @@ This library is a collection of Vue single-file components to render Material
 Design Icons. It also includes some CSS that helps make the scaling of the
 icons a little easier.
 
-Note: Currently, this CSS may be duplicated in dev builds, but any minifier
-will remove it in production. This should be improved before 1.x.x is released.
-
 ## Getting started
 
 ```bash
@@ -19,8 +16,14 @@ OR
 $ yarn add vue-material-design-icons
 ```
 
-Then import wherever you'd like to use the icon, and declare it as a local
-component:
+**Recommended** Add the included stylesheet to your root JS file, usually
+`index.js` or `main.js`:
+
+```javascript
+import 'vue-material-design-icons/styles.css'
+```
+
+Import the icon, and declare it as a local component:
 
 ```javascript
 import MenuIcon from 'vue-material-design-icons/menu.vue'
@@ -38,8 +41,8 @@ import MenuIcon from 'vue-material-design-icons/menu.vue'
 Vue.component('menu-icon', MenuIcon)
 ```
 
-**Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
-their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
+> **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
+> their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
 
 Then use it in your code!
 

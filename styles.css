@@ -5,7 +5,7 @@
   height: 1em;
   width: 1em;
 
-  > svg {
+  > .material-design-icon__svg {
     height: 1em;
     width: 1em;
     fill: currentColor;

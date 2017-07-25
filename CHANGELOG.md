@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.0] - 2017-07-25
+
+### Changed
+- The CSS is no longer included by default. It can be optionally added
+  by including `vue-material-design-icons/styles.css`
+
 ## [0.3.1] - 2017-07-24
 
 ### Changed
