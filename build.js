@@ -4,7 +4,7 @@ const path = require('path')
 
 const dist = path.resolve(__dirname, 'dist')
 const template = path.resolve(__dirname, 'template.mst')
-const svgPath = path.resolve(__dirname, 'MaterialDesign/icons/svg')
+const svgPath = path.resolve(__dirname, 'MaterialDesign-SVG/svg')
 
 const svgs = fs.readdirSync(svgPath)
 
