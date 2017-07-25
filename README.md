@@ -6,53 +6,62 @@ icons a little easier.
 
 ## Getting started
 
-```bash
-$ npm install --save vue-material-design-icons
-```
+1. Install the package
 
-OR
+   ```bash
+   $ npm install --save vue-material-design-icons
+   ```
 
-```bash
-$ yarn add vue-material-design-icons
-```
+   OR
 
-**Recommended** Add the included stylesheet to your root JS file, usually
-`index.js` or `main.js`:
+   ```bash
+   $ yarn add vue-material-design-icons
+   ```
 
-```javascript
-import 'vue-material-design-icons/styles.css'
-```
+2. **Optional, but recommended** Add the included stylesheet to your root JS
+   file, usually `index.js` or `main.js`:
 
-Import the icon, and declare it as a local component:
+   ```javascript
+   import 'vue-material-design-icons/styles.css'
+   ```
 
-```javascript
-import MenuIcon from 'vue-material-design-icons/menu.vue'
+3. Import the icon, and declare it as a local component:
 
-components: {
-  MenuIcon
-}
-```
+   ```javascript
+   import MenuIcon from 'vue-material-design-icons/menu.vue'
 
-You could also declare it as a global component:
+   components: {
+     MenuIcon
+   }
+   ```
 
-```javascript
-import MenuIcon from 'vue-material-design-icons/menu.vue'
+   OR
 
-Vue.component('menu-icon', MenuIcon)
-```
+   Declare it as a global component:
 
-> **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
-> their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
+   ```javascript
+   import MenuIcon from 'vue-material-design-icons/menu.vue'
 
-Then use it in your code!
+   Vue.component('menu-icon', MenuIcon)
+   ```
 
-```html
-<menu-icon />
-```
+   > **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
+   > their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
+
+4. Then use it in your template code!
+
+   ```html
+   <menu-icon />
+   ```
 
 ## Credits
 
-[Templarian](https://github.com/Templarian "Templarian's GitHub profile") for
+[Austin Andrews / Templarian](https://github.com/Templarian "Templarian's GitHub profile") for
 the [MaterialDesign](https://github.com/Templarian/MaterialDesign "MaterialDesign Github page")
 project. This supplies the SVG icons for this project, which are packaged as
 Vue single file components.
+
+[Elliot Dahl](http://www.elliotdahl.com/ "Elliot Dahl's website") for
+[this article on prototypr.io](https://blog.prototypr.io/align-svg-icons-to-text-and-say-goodbye-to-font-icons-d44b3d7b26b4 
+"Align SVG Icons to Text and Say Goodbye to Font Icons"). This is where the
+recommended CSS comes from.
