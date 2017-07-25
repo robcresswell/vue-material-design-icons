@@ -8,51 +8,51 @@ icons a little easier.
 
 1. Install the package
 
-   ```bash
-   $ npm install --save vue-material-design-icons
-   ```
+    ```bash
+    $ npm install --save vue-material-design-icons
+    ```
 
-   OR
+    OR
 
-   ```bash
-   $ yarn add vue-material-design-icons
-   ```
+    ```bash
+    $ yarn add vue-material-design-icons
+    ```
 
 2. **Optional, but recommended** Add the included stylesheet to your root JS
    file, usually `index.js` or `main.js`:
 
-   ```javascript
-   import 'vue-material-design-icons/styles.css'
-   ```
+    ```javascript
+    import 'vue-material-design-icons/styles.css'
+    ```
 
 3. Import the icon, and declare it as a local component:
 
-   ```javascript
-   import MenuIcon from 'vue-material-design-icons/menu.vue'
+    ```javascript
+    import MenuIcon from 'vue-material-design-icons/menu.vue'
 
-   components: {
-     MenuIcon
-   }
-   ```
+    components: {
+      MenuIcon
+    }
+    ```
 
-   OR
+    OR
 
-   Declare it as a global component:
+    Declare it as a global component:
 
-   ```javascript
-   import MenuIcon from 'vue-material-design-icons/menu.vue'
+    ```javascript
+    import MenuIcon from 'vue-material-design-icons/menu.vue'
 
-   Vue.component('menu-icon', MenuIcon)
-   ```
+    Vue.component('menu-icon', MenuIcon)
+    ```
 
-   > **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
-   > their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
+    > **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
+    > their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
 
 4. Then use it in your template code!
 
-   ```html
-   <menu-icon />
-   ```
+    ```html
+    <menu-icon />
+    ```
 
 ## Credits
 
