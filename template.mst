@@ -12,5 +12,3 @@
     name: "{{name}}-icon"
   }
 </script>
-
-<style src="./material-design-icon.css"></style>
