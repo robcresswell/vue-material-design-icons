@@ -57,6 +57,15 @@ easier.
     <menu-icon />
     ```
 
+## Icons
+
+A list of the icons can be found at the
+[Material Design Icons website](https://materialdesignicons.com/
+"Material Design Icons website"). The icons packaged here match the names
+displayed on the website, such as `ultra-high-definition`, with the `.vue`
+extension; that icon would be imported as
+`'vue-material-design-icons/ultra-high-definition.vue'`.
+
 ## Credits
 
 [Austin Andrews / Templarian](https://github.com/Templarian "Templarian's GitHub profile") for

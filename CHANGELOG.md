@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.6.3] - 2017-07-27
+
+### Fixed
+- Added a note about finding the icon list to the `README`
+
 ## [0.6.2] - 2017-07-27
 
 ### Fixed
