@@ -1,8 +1,11 @@
 # Vue Material Design Icon Components
 
 This library is a collection of Vue single-file components to render Material
-Design Icons. It also includes some CSS that helps make the scaling of the
-icons a little easier.
+Design Icons, sourced from the
+[MaterialDesign](https://github.com/Templarian/MaterialDesign
+"MaterialDesign Github page") project.
+It also includes some CSS that helps make the scaling of the icons a little
+easier.
 
 ## Getting started
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.6.2] - 2017-07-27
+
+### Fixed
+- Made the icon source more explicit in the `README`
+
 ## [0.6.1] - 2017-07-25
 
 ### Fixed
