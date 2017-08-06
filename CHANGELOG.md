@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.7.1] - 2017-08-06
+
+### Added
+- Added a "Tips" section to the `README`
+
 ## [0.7.0] - 2017-08-06
 
 ### Added
