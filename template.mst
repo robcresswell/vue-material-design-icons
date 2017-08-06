@@ -1,14 +1,28 @@
+{{=<% %>=}}
 <template>
-  <div class="material-design-icon" id="{{name}}-icon" role="img" aria-labelledby="{{name}}-title">
+  <div class="material-design-icon" id="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
     <svg class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24">
-      <title id="{{name}}-title">{{readableName}} icon</title>
-      <path{{{path}}}></path>
+      <title id="<%name%>-icon-title">{{iconTitle}}</title>
+      <path<%{path}%>></path>
     </svg>
   </div>
 </template>
 
 <script>
   export default {
-    name: "{{name}}-icon"
+    name: "<%name%>-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "<%readableName%> icon"
+
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String
+      }
+    }
   }
 </script>
+<%={{ }}=%>

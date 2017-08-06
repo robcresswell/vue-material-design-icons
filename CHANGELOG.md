@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0] - 2017-08-06
+
+### Added
+- Added a `title` prop to the icons, allowing the title to be customised. The
+  default is still `<icon-name>-icon`, e.g. `android-icon`
+
+### Changed
+- Changed the title ID from `<icon-name>-title` to `<icon-name>-icon-title`
+
 ## [0.6.3] - 2017-07-27
 
 ### Fixed
