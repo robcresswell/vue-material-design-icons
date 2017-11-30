@@ -1,7 +1,7 @@
 {{=<% %>=}}
 <template>
   <div class="material-design-icon" id="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
-    <svg class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24">
+    <svg class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24" :fill="fillColor">
       <title id="<%name%>-icon-title">{{iconTitle}}</title>
       <path<%{path}%>></path>
     </svg>
@@ -20,6 +20,9 @@
     },
     props: {
       title: {
+        type: String
+      },
+      fillColor: {
         type: String
       }
     }
