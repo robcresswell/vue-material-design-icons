@@ -1,9 +1,18 @@
 {{=<% %>=}}
 <template>
-  <div class="material-design-icon" id="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
-    <svg class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24">
-      <title id="<%name%>-icon-title">{{iconTitle}}</title>
-      <path<%{path}%>></path>
+  <div class="material-design-icon"
+       id="<%name%>-icon"
+       role="img"
+       aria-labelledby="<%name%>-icon-title">
+    <svg class="material-design-icon__svg"
+         width="24"
+         height="24"
+         viewBox="0 0 24 24">
+      <title id="<%name%>-icon-title">
+        {{iconTitle}}
+      </title>
+      <path<%{path}%>>
+      </path>
     </svg>
   </div>
 </template>
@@ -12,10 +21,8 @@
   export default {
     name: "<%name%>-icon",
     data () {
-      let iconTitle = this.title ? this.title : "<%readableName%> icon"
-
       return {
-        iconTitle: iconTitle
+        iconTitle: this.title || "<%readableName%> icon"
       }
     },
     props: {
