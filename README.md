@@ -11,14 +11,14 @@ easier.
 
 1. Install the package
 
-    ```bash
-    $ npm install --save vue-material-design-icons
+    ```console
+    npm install --save vue-material-design-icons
     ```
 
     OR
 
-    ```bash
-    $ yarn add vue-material-design-icons
+    ```console
+    yarn add vue-material-design-icons
     ```
 
 2. **Optional, but recommended** Add the included stylesheet to your root JS
@@ -96,3 +96,8 @@ Vue single file components.
 [this article on prototypr.io](https://blog.prototypr.io/align-svg-icons-to-text-and-say-goodbye-to-font-icons-d44b3d7b26b4 
 "Align SVG Icons to Text and Say Goodbye to Font Icons"). This is where the
 recommended CSS comes from.
+
+[Attila Max Ruf / therufa](https://github.com/therufa "therufa's GitHub Profile")
+for the [mdi-vue](https://github.com/therufa/mdi-vue "mdi-vue") library which
+inspired this one. It also produces single file components from material
+design icons.
