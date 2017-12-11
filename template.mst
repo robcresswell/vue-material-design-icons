@@ -8,9 +8,7 @@
          width="24"
          height="24"
          viewBox="0 0 24 24">
-      <title id="<%name%>-icon-title">
-        {{iconTitle}}
-      </title>
+      <title id="<%name%>-icon-title">{{iconTitle}}</title>
       <path<%{path}%>>
       </path>
     </svg>
