@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.1] - 2017-12-11
+
+### Fixed
+- Fixed the excessive padding around the `title`
+
+## [0.8.0] - 2017-12-11
+
+### Changed
+- Updated the `MaterialDesign-SVG` dependency, adding many new icons
+- Updated to a new version of `mustache`
+- Added credit referencing the `mdi-vue` library
+
 ## [0.7.1] - 2017-08-06
 
 ### Added
