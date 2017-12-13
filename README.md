@@ -70,20 +70,26 @@ extension; that icon would be imported as
 
 - Use `resolve` in your Webpack config to clean up the imports:
 
-  ```javascript
-  resolve: {
-     alias : {
-       "icons": path.resolve(__dirname, "node_modules/vue-material-design-icons")
-     },
-    extensions: [
-      ".vue"
-    ]
-  }
-  ```
+    ```javascript
+    resolve: {
+      alias : {
+        "icons": path.resolve(__dirname, "node_modules/vue-material-design-icons")
+      },
+      extensions: [
+        ".vue"
+      ]
+    }
+    ```
 
-  This will give you much shorter and more readable imports, like
-  `import Android from 'icons/android'`, rather than
-  `import Android from 'vue-material-design-icons/android.vue'`. Much better!
+    This will give you much shorter and more readable imports, like
+    `import Android from 'icons/android'`, rather than
+    `import Android from 'vue-material-design-icons/android.vue'`. Much better!
+
+- Add click handlers to the icons with `@click.native`. For example:
+
+    ```html
+      <fullscreen-icon @click.native="myMethod" />
+    ```
 
 ## Credits
 
