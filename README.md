@@ -91,6 +91,10 @@ extension; that icon would be imported as
       <fullscreen-icon @click.native="myMethod" />
     ```
 
+    You can learn more about this by reading the Vue docs on 
+    [Binding Native Events to Components]
+    (https://vuejs.org/v2/guide/components.html#Binding-Native-Events-to-Components)
+
 ## Credits
 
 [Austin Andrews / Templarian](https://github.com/Templarian "Templarian's GitHub profile") for
