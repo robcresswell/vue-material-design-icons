@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.8.2] - 2017-12-13
+
+### Changed
+- Small improvements to the README, such as extra tips, and formatting fixes
+
 ## [0.8.1] - 2017-12-11
 
 ### Fixed
