@@ -1,14 +1,14 @@
 {{=<% %>=}}
 <template>
-  <div class="material-design-icon"
-       id="<%name%>-icon"
+  <div class="material-design-icon <%name%>-icon"
+       :aria-hidden="decorative"
        role="img"
-       aria-labelledby="<%name%>-icon-title">
+       :aria-label="iconTitle">
     <svg class="material-design-icon__svg"
          width="24"
          height="24"
          viewBox="0 0 24 24">
-      <title id="<%name%>-icon-title">{{iconTitle}}</title>
+      <title>{{iconTitle}}</title>
       <path<%{path}%>>
       </path>
     </svg>
@@ -18,14 +18,18 @@
 <script>
   export default {
     name: "<%name%>-icon",
-    data () {
-      return {
-        iconTitle: this.title || "<%readableName%> icon"
+    computed () {
+      iconTitle() {
+        return this.title || "<%readableName%> icon"
       }
     },
     props: {
       title: {
         type: String
+      },
+      decorative: {
+        type: Boolean,
+        default: true
       }
     }
   }

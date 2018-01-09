@@ -57,6 +57,15 @@ easier.
     <menu-icon />
     ```
 
+## Props
+
+* `title` - This changes the hover tooltip as well as the title shown to screen
+  readers. By default, those values are a "human readable" conversion of the
+  icon names; for example `chevron-down-icon` becomes "Chevron down icon".
+* `decorative` - This denotes whether an icon is purely decorative, or has some
+  meaninfgul value. If an icon is decorative, it will be hidden from screen
+  readers. By default, this is `true`.
+
 ## Icons
 
 A list of the icons can be found at the

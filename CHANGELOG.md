@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.0] - 2018-01-09
+
+### Added
+- Added a "Props" section to the README
+- Added a `decorative` prop that toggles whether icons are hidden from
+  screen readers
+
+### Changed
+- Changed the icon IDs to classes (i.e. `#android-icon` is now `.android-icon`)
+  to avoid invalid HTML when using the same icon multiple times in one page
+- Changed the `aria-labelled-by` attribute to an `aria-label` attribute to
+  avoid using duplicate IDs
+
 ## [0.8.2] - 2017-12-13
 
 ### Changed
