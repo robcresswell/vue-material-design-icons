@@ -4,15 +4,14 @@
   <span class="material-design-icon <%name%>-icon"
         :aria-hidden="decorative"
         role="img"
-        :aria-label="iconTitle">
+        :aria-label="title">
     <svg class="material-design-icon__svg"
          width="24"
          height="24"
          viewBox="0 0 24 24"
          :fill="fillColor">
-      <title>{{iconTitle}}</title>
-      <path<%{path}%>>
-      </path>
+      <title>{{title}}</title>
+      <path<%{path}%>></path>
     </svg>
   </span>
 </template>
@@ -20,14 +19,10 @@
 <script>
   export default {
     name: "<%name%>-icon",
-    computed: {
-      iconTitle() {
-        return this.title || "<%readableName%> icon"
-      }
-    },
     props: {
       title: {
-        type: String
+        type: String,
+        default: "<%readableName%> icon"
       },
       decorative: {
         type: Boolean,

@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0] - 2018-02-07
+
+### Added
+- Added a `fillColor` prop that lets you set a fill colour via component prop
+  rather than CSS. Thanks to [Sagar Subedi](https://gitlab.com/sagarSubedi) for
+  the change.
+
+## Changed
+- Modified the base template to set a default title via prop definition, instead
+  of using a computed prop. This shouldn't make any outward difference, but makes
+  the code a little cleaner.
+
 ## [1.0.0] - 2018-01-09
 
 ### Added
