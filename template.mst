@@ -1,5 +1,6 @@
 {{=<% %>=}}
 <template>
+<<<<<<< HEAD
   <span class="material-design-icon <%name%>-icon"
         :aria-hidden="decorative"
         role="img"
@@ -7,7 +8,8 @@
     <svg class="material-design-icon__svg"
          width="24"
          height="24"
-         viewBox="0 0 24 24">
+         viewBox="0 0 24 24"
+         :fill="fillColor">
       <title>{{iconTitle}}</title>
       <path<%{path}%>>
       </path>
@@ -30,6 +32,9 @@
       decorative: {
         type: Boolean,
         default: false
+      },
+      fillColor: {
+        type: String
       }
     }
   }
