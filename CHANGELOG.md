@@ -7,10 +7,14 @@
   rather than CSS. Thanks to [Sagar Subedi](https://gitlab.com/sagarSubedi) for
   the change.
 
-## Changed
+### Changed
 - Modified the base template to set a default title via prop definition, instead
   of using a computed prop. This shouldn't make any outward difference, but makes
   the code a little cleaner.
+
+### Fixed
+- Improved the package.json scripts so that they work from a fresh clone
+  of the repo.
 
 ## [1.0.0] - 2018-01-09
 

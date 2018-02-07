@@ -81,7 +81,7 @@ easier.
 
 * `fillColor` - This property allows you to set the fill colour of an icon via
   JS instead of requiring CSS changes. Note that any CSS values, such as
-  `fill: currentColor;` provided by the optional CSS file, will override colours
+  `fill: currentColor;` provided by the optional CSS file, may override colours
   set with this prop.
 
   Example:

@@ -1,6 +1,5 @@
 {{=<% %>=}}
 <template>
-<<<<<<< HEAD
   <span class="material-design-icon <%name%>-icon"
         :aria-hidden="decorative"
         role="img"
