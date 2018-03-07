@@ -1,9 +1,9 @@
 {
   "name": "vue-material-design-icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Rob Cresswell <robert.cresswell@outlook.com>",
   "license": "MIT",
-  "description": "A collection of material icons as Vue single file components",
+  "description": "A collection of material design icons as Vue single file components",
   "files": "dist",
   "repository": "gitlab:robcresswell/vue-material-design-icons",
   "keywords": [
@@ -25,10 +25,10 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "npm install && git submodule init && git submodule update && npm run clean",
+    "prebuild": "yarn && git submodule init && git submodule update && yarn clean",
     "build": "node build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
-    "predist": "npm run build",
-    "dist": "cp package.json dist/ && cp README.md dist/ && cp CHANGELOG.md dist/ && cd dist && npm publish"
+    "predist": "yarn build",
+    "dist": "cp package.json dist/ && cp README.md dist/ && cp CHANGELOG.md dist/ && cd dist && yarn publish"
   }
 }

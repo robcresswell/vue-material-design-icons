@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0] - 2018-03-07
+
+### Changed
+- Updated the `MaterialDesign-SVG` dependency, adding many new icons
+- Moved the internal tooling to Yarn
+- Slightly changed the repo description wording
+
 ## [1.1.0] - 2018-02-07
 
 ### Added
