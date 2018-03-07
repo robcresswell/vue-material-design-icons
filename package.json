@@ -25,7 +25,7 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "yarn && git submodule init && git submodule update && yarn clean",
+    "prebuild": "yarn && git submodule update --init --rebase --remote && yarn clean",
     "build": "node build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
     "predist": "yarn build",
