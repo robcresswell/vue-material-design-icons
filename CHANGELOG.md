@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [1.2.1] - 2018-03-08
+
+### Changed
+- Updated `styles.css` so that it was actually valid CSS. Previously it was
+  SCSS. *facepalm*
+
 ## [1.2.0] - 2018-03-07
 
 ### Changed
