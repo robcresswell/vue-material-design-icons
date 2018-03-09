@@ -15,7 +15,7 @@ easier.
     npm install --save vue-material-design-icons
     ```
 
-    OR
+    **OR**
 
     ```console
     yarn add vue-material-design-icons
@@ -38,7 +38,7 @@ easier.
     }
     ```
 
-    OR
+    **OR**
 
     Declare it as a global component:
 
@@ -63,32 +63,32 @@ easier.
   readers. By default, those values are a "human readable" conversion of the
   icon names; for example `chevron-down-icon` becomes "Chevron down icon".
 
-  Example:
+    Example:
 
-  ```html
-  <android-icon title="this is an icon!" />
-  ```
+    ```html
+    <android-icon title="this is an icon!" />
+    ```
    
 * `decorative` - This denotes whether an icon is purely decorative, or has some
   meaninfgul value. If an icon is decorative, it will be hidden from screen
   readers. By default, this is `false`.
 
-  Example:
+    Example:
 
-  ```html
-  <android-icon decorative />
-  ```
+    ```html
+    <android-icon decorative />
+    ```
 
 * `fillColor` - This property allows you to set the fill colour of an icon via
   JS instead of requiring CSS changes. Note that any CSS values, such as
   `fill: currentColor;` provided by the optional CSS file, may override colours
   set with this prop.
 
-  Example:
+    Example:
 
-  ```html
-  <android-icon fillColor="#FF0000"
-  ```
+    ```html
+    <android-icon fillColor="#FF0000"
+    ```
 
 ## Icons
 
