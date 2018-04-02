@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.0] - 2018-04-02
+- Updated to use icons from v2.2.43 of [MaterialDesign]
+  (https://github.com/Templarian/MaterialDesign)
 
 ## [1.2.1] - 2018-03-08
 
