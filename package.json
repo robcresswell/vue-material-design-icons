@@ -18,16 +18,15 @@
     "material design"
   ],
   "devDependencies": {
-    "@mdi/svg": "2.2.43",
-    "mustache": "2.3.0",
-    "standard-version": "4.3.0"
+    "@mdi/svg": "2.3.54",
+    "mustache": "2.3.0"
   },
   "homepage": "https://gitlab.com/robcresswell/vue-material-design-icons",
   "bugs": {
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "yarn && yarn clean",
+    "prebuild": "yarn",
     "build": "node build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
     "predist": "yarn build",
