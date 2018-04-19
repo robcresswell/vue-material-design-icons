@@ -30,6 +30,6 @@
     "build": "./build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
     "prerelease": "yarn build",
-    "release": "standard-version && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
+    "release": "yarn standard-version && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
   }
 }
