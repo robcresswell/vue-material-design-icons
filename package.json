@@ -27,9 +27,9 @@
   },
   "scripts": {
     "prebuild": "yarn",
-    "build": "node build.js && cp styles.css dist/",
+    "build": "./build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
-    "predist": "yarn build",
-    "dist": "cp package.json dist/ && cp README.md dist/ && cp CHANGELOG.md dist/ && cd dist && yarn publish"
+    "prerelease": "yarn build",
+    "release": "standard-version && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
   }
 }

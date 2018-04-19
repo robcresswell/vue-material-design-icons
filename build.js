@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const mustache = require("mustache");
 const path = require("path");
