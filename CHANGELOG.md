@@ -1,3 +1,25 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.4.0"></a>
+# [1.4.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/1.3.0...1.4.0) (2018-04-19)
+
+
+### Bug Fixes
+
+* Make standard-version tag format match existing tags ([13ca214](https://gitlab.com/robcresswell/vue-material-design-icons/commit/13ca214))
+* Remove CHANGELOG header for standard-version ([cd28237](https://gitlab.com/robcresswell/vue-material-design-icons/commit/cd28237))
+
+
+### Features
+
+* Add standard-version for easier CHANGELOG creation ([826b17d](https://gitlab.com/robcresswell/vue-material-design-icons/commit/826b17d))
+* Upgrade the build tooling ([52495c0](https://gitlab.com/robcresswell/vue-material-design-icons/commit/52495c0))
+* Use [@mdi](https://gitlab.com/mdi)/svg from npm instead of git ([7542255](https://gitlab.com/robcresswell/vue-material-design-icons/commit/7542255))
+
+
+
 ## [1.3.0] - 2018-04-02
 - Updated to use icons from v2.2.43 of [MaterialDesign]
   (https://github.com/Templarian/MaterialDesign)
