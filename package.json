@@ -19,7 +19,8 @@
   ],
   "devDependencies": {
     "@mdi/svg": "2.3.54",
-    "mustache": "2.3.0"
+    "mustache": "2.3.0",
+    "standard-version": "4.3.0"
   },
   "homepage": "https://gitlab.com/robcresswell/vue-material-design-icons",
   "bugs": {
