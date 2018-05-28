@@ -4,7 +4,6 @@
   "author": "Rob Cresswell <robert.cresswell@outlook.com>",
   "license": "MIT",
   "description": "A collection of material design icons as Vue single file components",
-  "files": "dist",
   "repository": "gitlab:robcresswell/vue-material-design-icons",
   "keywords": [
     "vue",
