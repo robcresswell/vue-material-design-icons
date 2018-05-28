@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.5.1"></a>
+## [1.5.1](https://gitlab.com/robcresswell/vue-material-design-icons/compare/1.5.0...1.5.1) (2018-05-28)
+
+
+### Bug Fixes
+
+* Fix release script ([4a7b3df](https://gitlab.com/robcresswell/vue-material-design-icons/commit/4a7b3df))
+
+
+
 <a name="1.5.0"></a>
 # [1.5.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/1.4.0...1.5.0) (2018-05-28)
 
