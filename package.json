@@ -17,7 +17,7 @@
     "material design"
   ],
   "devDependencies": {
-    "@mdi/svg": "2.4.85",
+    "@mdi/svg": "2.5.94",
     "mustache": "2.3.0",
     "standard-version": "4.4.0"
   },
