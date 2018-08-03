@@ -26,10 +26,10 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "yarn",
+    "prebuild": "npm install",
     "build": "./build.js && cp styles.css dist/",
     "clean": "rm -rf dist",
-    "prerelease": "yarn build",
-    "release": "yarn standard-version --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
+    "prerelease": "npm run build",
+    "release": "npm run standard-version --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && npm publish"
   }
 }
