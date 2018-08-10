@@ -17,19 +17,32 @@
     "material design"
   ],
   "devDependencies": {
-    "@mdi/svg": "2.5.94",
-    "mustache": "2.3.0",
-    "standard-version": "4.4.0"
+    "@babel/core": "7.0.0-rc.1",
+    "@babel/preset-env": "7.0.0-rc.1",
+    "@mdi/js": "2.6.95",
+    "@vue/test-utils": "1.0.0-beta.24",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.4.2",
+    "jest": "23.5.0",
+    "jest-serializer-vue": "2.0.2",
+    "mustache": "2.3.2",
+    "regenerator-runtime": "0.12.1",
+    "standard-version": "4.4.0",
+    "vue": "2.5.17",
+    "vue-jest": "2.6.0",
+    "vue-template-compiler": "2.5.17"
   },
   "homepage": "https://gitlab.com/robcresswell/vue-material-design-icons",
   "bugs": {
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "npm install",
+    "prebuild": "npm install && npm run clean",
     "build": "./build.js && cp styles.css dist/",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist/",
+    "pretest": "npm run build",
+    "test": "jest",
     "prerelease": "npm run build",
-    "release": "npm run standard-version --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && npm publish"
+    "release": "standard-version --sign --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && npm publish"
   }
 }

@@ -1,50 +1,57 @@
 #!/usr/bin/env node
 
+// Imports
 const fs = require("fs");
+const fsp = require("fs").promises;
 const mustache = require("mustache");
 const path = require("path");
-
+const icons = require("@mdi/js/commonjs/mdi.js");
 const dist = path.resolve(__dirname, "dist");
-const template = path.resolve(__dirname, "template.mst");
-const svgPath = path.resolve(__dirname, "node_modules/@mdi/svg/svg");
+const templateFile = path.resolve(__dirname, "template.mst");
+const iconIDs = Object.keys(icons);
 
-const svgs = fs.readdirSync(svgPath);
+const templateData = iconIDs.map(id => {
+  const splitID = id.split(/(?=[A-Z])/).slice(1);
 
-const getPath = svg => {
-  const matches = /\sd="(.*)"/.exec(
-    fs.readFileSync(path.join(svgPath, svg), {
-      encoding: "utf8"
-    })
-  );
+  const name = splitID.join("");
 
-  if (matches) {
-    return matches[0];
-  }
-};
+  // This is a hacky way to remove the 'mdi' prefix, so "mdiAndroid" becomes
+  // "android", for example
+  const title = splitID.join("-").toLowerCase();
 
-const makeHumanReadable = name => {
-  const spacedName = name.split("-").join(" ");
-  humanReadableName = spacedName.charAt(0).toUpperCase() + spacedName.slice(1);
-  return humanReadableName;
-};
+  // Transforms the icon ID to a human readable form for default titles.
+  // For example, "mdiAndroidStudio" becomes "Android Studio"
+  const readableName = splitID.join(" ");
 
-const templateData = svgs.map(svg => {
-  const name = svg.slice(0, -4);
   return {
-    name: name,
-    readableName: makeHumanReadable(name),
-    path: getPath(svg)
+    name,
+    title,
+    readableName,
+    svgPathData: icons[id]
   };
 });
 
-const componentFile = fs.readFileSync(template, { encoding: "utf8" });
+const generateIcons = async () => {
+  const template = fs.readFileSync(templateFile, { encoding: "utf8" });
 
-if (!fs.existsSync(dist)) {
-  fs.mkdirSync(dist);
-}
+  if (!fs.existsSync(dist)) {
+    fs.mkdirSync(dist);
+  }
 
-for (data of templateData) {
-  const component = mustache.render(componentFile, data);
-  const filename = data.name + ".vue";
-  fs.writeFileSync(path.resolve(dist, filename), component);
-}
+  const filePromises = templateData.map(
+    ({ name, title, readableName, svgPathData }) => {
+      const component = mustache.render(template, {
+        name,
+        title,
+        readableName,
+        svgPathData
+      });
+      const filename = `${name}.vue`;
+      return fsp.writeFile(path.resolve(dist, filename), component);
+    }
+  );
+
+  Promise.all(filePromises);
+};
+
+generateIcons();

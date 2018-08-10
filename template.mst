@@ -1,36 +1,37 @@
 {{=<% %>=}}
 <template>
-  <span class="material-design-icon <%name%>-icon"
-        :aria-hidden="decorative"
-        role="img"
-        :aria-label="title">
-    <svg class="material-design-icon__svg"
+  <span :aria-hidden="decorative"
+        :aria-label="title"
+        class="material-design-icon <%title%>-icon"
+        role="img">
+    <svg :fill="fillColor"
+         class="material-design-icon__svg"
          width="24"
          height="24"
-         viewBox="0 0 24 24"
-         :fill="fillColor">
-      <title>{{title}}</title>
-      <path<%{path}%>></path>
+         viewBox="0 0 24 24">
+      <title>{{ title }}</title>
+      <path d="<%{svgPathData}%>"/>
     </svg>
   </span>
 </template>
 
 <script>
-  export default {
-    name: "<%name%>-icon",
-    props: {
-      title: {
-        type: String,
-        default: "<%readableName%> icon"
-      },
-      decorative: {
-        type: Boolean,
-        default: false
-      },
-      fillColor: {
-        type: String
-      }
+export default {
+  name: "<%name%>Icon",
+  props: {
+    title: {
+      type: String,
+      default: "<%readableName%> icon"
+    },
+    decorative: {
+      type: Boolean,
+      default: false
+    },
+    fillColor: {
+      type: String,
+      default: "currentColor"
     }
   }
+}
 </script>
 <%={{ }}=%>

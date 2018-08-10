@@ -31,7 +31,7 @@ easier.
 3. Import the icon, and declare it as a local component:
 
     ```javascript
-    import MenuIcon from "vue-material-design-icons/menu.vue"
+    import MenuIcon from "vue-material-design-icons/Menu.vue"
 
     components: {
       MenuIcon
@@ -43,13 +43,13 @@ easier.
     Declare it as a global component:
 
     ```javascript
-    import MenuIcon from "vue-material-design-icons/menu.vue"
+    import MenuIcon from "vue-material-design-icons/Menu.vue"
 
     Vue.component("menu-icon", MenuIcon)
     ```
 
-    > **Note** Icon files are kebab cased, e.g. `checkbox-marked-circle.vue`, and
-    > their default name has `-icon` appended e.g. `checkbox-marked-circle-icon`.
+    > **Note** Icon files are pascal cased, e.g. `CheckboxMarkedCircle.vue`, and
+    > their default name has `Icon` appended e.g. `CheckboxMarkedCircleIcon`.
 
 4. Then use it in your template code!
 
@@ -94,10 +94,11 @@ easier.
 
 A list of the icons can be found at the
 [Material Design Icons website](https://materialdesignicons.com/
-"Material Design Icons website"). The icons packaged here match the names
-displayed on the website, such as `ultra-high-definition`, with the `.vue`
-extension; that icon would be imported as
-`"vue-material-design-icons/ultra-high-definition.vue"`.
+"Material Design Icons website"). The icons packaged here are pascal cased
+versions of the names displayed on the website, to match the
+[Vue Style Guide](https://vuejs.org/v2/style-guide/). For example, the icon
+named `ultra-high-definition` would be imported as
+`"vue-material-design-icons/UltraHighDefinition.vue"`.
 
 ## Tips
 
@@ -115,8 +116,8 @@ extension; that icon would be imported as
     ```
 
     This will give you much shorter and more readable imports, like
-    `import Android from "icons/android"`, rather than
-    `import Android from "vue-material-design-icons/android.vue"`. Much better!
+    `import Android from "icons/Android"`, rather than
+    `import Android from "vue-material-design-icons/Android.vue"`. Much better!
 
 - Add click handlers to the icons with `@click.native`. For example:
 
