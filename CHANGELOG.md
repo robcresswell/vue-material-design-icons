@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/1.6.0...2.0.0) (2018-08-18)
+
+
+### Features
+
+* Upgrade MDI & match vue styleguide ([cfdf17e](https://gitlab.com/robcresswell/vue-material-design-icons/commit/cfdf17e)), closes [#1](https://gitlab.com/robcresswell/vue-material-design-icons/issues/1) [#2](https://gitlab.com/robcresswell/vue-material-design-icons/issues/2)
+
+
+### BREAKING CHANGES
+
+* Match the component names to the structure recommended
+by the Vue style guide. This means all files now begin with a capital
+letter, i.e. "android.vue" is now "Android.vue", and the component
+names are Pascal-cased instead of camel-cased. i.e.
+"CheckboxMarkedCircle" instead of "checkbox-marked-circle".
+
+Other changes include:
+- Async build script, to make it a little faster. Also refactored to
+  use the new @mdi/svg repo, so some of the build hacks can go away.
+- Added some testing and snapshots, to make upgrades quicker to verify.
+- Updated to the lastest version of MDI for more icons.
+- Updated the LICENSE for 2018
+- Added .nvmrc
+- Fairly unimportant, but the generated .vue files now pass all the
+  rules on the Vue style guide; this should make them a little more
+  consistent and easier to read for those familiar with Vue.
+
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/1.5.1...1.6.0) (2018-07-22)
 
