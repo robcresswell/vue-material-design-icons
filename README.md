@@ -129,6 +129,28 @@ named `ultra-high-definition` would be imported as
     [Binding Native Events to Components]
     (https://vuejs.org/v2/guide/components.html#Binding-Native-Events-to-Components)
 
+- If you want custom sizing, add your own css to adjust the height and width of the icons
+
+    ```css
+    .material-design-icon.icon-2x {
+      height: 2em;
+      width: 2em;
+    }
+    
+    .material-design-icon.icon-2x > .material-design-icon__svg {
+        height: 2em;
+        width: 2em;
+    }
+    ```
+    
+    Then add your size class
+    
+    ```html
+      <fullscreen-icon class='icon-2x' />
+    ```
+
+
+
 ## Credits
 
 [Austin Andrews / Templarian](https://github.com/Templarian "Templarian's GitHub profile") for
