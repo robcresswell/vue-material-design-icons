@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.0"></a>
+# [2.2.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.1.1...2.2.0) (2018-10-10)
+
+
+### Features
+
+* Update to newest version of mdi ([208c0ab](https://gitlab.com/robcresswell/vue-material-design-icons/commit/208c0ab))
+
+
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.1.0...2.1.1) (2018-09-03)
 
