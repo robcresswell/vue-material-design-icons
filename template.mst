@@ -9,8 +9,9 @@
          width="24"
          height="24"
          viewBox="0 0 24 24">
-      <title>{{ title }}</title>
-      <path d="<%{svgPathData}%>"/>
+      <path d="<%{svgPathData}%>">
+        <title>{{ title }}</title>
+      </path>
     </svg>
   </span>
 </template>
