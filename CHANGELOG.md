@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.0"></a>
+# [2.5.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.4.0...2.5.0) (2018-12-23)
+
+
+### Bug Fixes
+
+* A basic size instructions to README ([66bf350](https://gitlab.com/robcresswell/vue-material-design-icons/commit/66bf350))
+* IE11 tooltip support ([3966a2d](https://gitlab.com/robcresswell/vue-material-design-icons/commit/3966a2d))
+
+
+### Features
+
+* Add new icons (update [@mdi](https://gitlab.com/mdi)/js) ([23f7868](https://gitlab.com/robcresswell/vue-material-design-icons/commit/23f7868))
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.3.0...2.4.0) (2018-11-04)
 
