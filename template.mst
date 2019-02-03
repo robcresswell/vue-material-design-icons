@@ -6,8 +6,8 @@
         role="img">
     <svg :fill="fillColor"
          class="material-design-icon__svg"
-         width="24"
-         height="24"
+         :width="size"
+         :height="size"
          viewBox="0 0 24 24">
       <path d="<%{svgPathData}%>">
         <title>{{ title }}</title>
@@ -31,6 +31,10 @@ export default {
     fillColor: {
       type: String,
       default: "currentColor"
+    },
+    size: {
+      type: Number,
+      default: 24
     }
   }
 }

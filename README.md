@@ -87,8 +87,16 @@ easier.
     Example:
 
     ```html
-    <android-icon fillColor="#FF0000"
+    <android-icon fillColor="#FF0000" />
     ```
+* `size` - This property overrides the `width` and `height` attributes on the
+  SVG. The default is `24`.
+
+    Example:
+
+    ```html
+    <android-icon :size="48" />
+    ``` 
 
 ## Icons
 
@@ -122,7 +130,7 @@ named `ultra-high-definition` would be imported as
 - Add click handlers to the icons with `@click.native`. For example:
 
     ```html
-      <fullscreen-icon @click.native="myMethod" />
+    <fullscreen-icon @click.native="myMethod" />
     ```
 
     You can learn more about this by reading the Vue docs on 
@@ -149,7 +157,8 @@ named `ultra-high-definition` would be imported as
       <fullscreen-icon class='icon-2x' />
     ```
 
-
+  While I recommend using CSS for styling, you can also pass in a `size` prop,
+  detailed in the `Props` section above.
 
 ## Credits
 

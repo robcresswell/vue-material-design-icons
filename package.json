@@ -37,7 +37,7 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "npm install && npm run clean",
+    "prebuild": "npm ci && npm run clean",
     "build": "./build.js && cp styles.css dist/",
     "clean": "rm -rf dist/",
     "pretest": "npm run build",
