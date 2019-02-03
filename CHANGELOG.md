@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.0"></a>
+# [2.8.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.7.0...2.8.0) (2019-02-03)
+
+
+### Features
+
+* Add ability to change size via a prop ([d4e76ed](https://gitlab.com/robcresswell/vue-material-design-icons/commit/d4e76ed))
+
+
+
 <a name="2.7.0"></a>
 # [2.7.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.6.0...2.7.0) (2019-02-03)
 
