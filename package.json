@@ -1,6 +1,6 @@
 {
   "name": "vue-material-design-icons",
-  "version": "2.8.0",
+  "version": "3.0.0",
   "author": "Rob Cresswell <robcresswell@protonmail.com>",
   "license": "MIT",
   "description": "A collection of material design icons as Vue single file components",

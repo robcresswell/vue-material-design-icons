@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.8.0...3.0.0) (2019-02-03)
+
+
+### Bug Fixes
+
+* delegate click events ([84f5c00](https://gitlab.com/robcresswell/vue-material-design-icons/commit/84f5c00))
+
+
+### BREAKING CHANGES
+
+* This is an extremely cautious breaking change, mostly
+because an icon library should definitely not cause breakages.
+
+Previously the library required manually added click handlers, which was
+fine when declaring the icons inline but not helpful when using them
+programmatically with libraries like Vuetify.
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/2.7.0...2.8.0) (2019-02-03)
 
