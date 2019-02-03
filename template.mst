@@ -3,7 +3,8 @@
   <span :aria-hidden="decorative"
         :aria-label="title"
         class="material-design-icon <%title%>-icon"
-        role="img">
+        role="img"
+        @click="$emit('click', $event)">
     <svg :fill="fillColor"
          class="material-design-icon__svg"
          :width="size"

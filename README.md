@@ -127,16 +127,6 @@ named `ultra-high-definition` would be imported as
     `import Android from "icons/Android"`, rather than
     `import Android from "vue-material-design-icons/Android.vue"`. Much better!
 
-- Add click handlers to the icons with `@click.native`. For example:
-
-    ```html
-    <fullscreen-icon @click.native="myMethod" />
-    ```
-
-    You can learn more about this by reading the Vue docs on 
-    [Binding Native Events to Components]
-    (https://vuejs.org/v2/guide/components.html#Binding-Native-Events-to-Components)
-
 - If you want custom sizing, add your own css to adjust the height and width of the icons
 
     ```css
