@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [3.2.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/3.1.0...3.2.0) (2019-04-24)
+
+
+### Features
+
+* New icons (mdi dep update) ([0382799](https://gitlab.com/robcresswell/vue-material-design-icons/commit/0382799))
+
+
+
 # [3.1.0](https://gitlab.com/robcresswell/vue-material-design-icons/compare/3.0.0...3.1.0) (2019-03-04)
 
 
