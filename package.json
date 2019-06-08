@@ -24,8 +24,10 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
     "jest-serializer-vue": "2.0.2",
     "mustache": "^3.0.1",
+    "prettier": "^1.18.2",
     "regenerator-runtime": "^0.13.2",
     "standard-version": "^6.0.1",
     "vue": "^2.6.10",
@@ -37,12 +39,13 @@
     "url": "https://gitlab.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "npm ci && npm run clean",
+    "prebuild": "yarn clean",
     "build": "./build.js && cp styles.css dist/",
     "clean": "rm -rf dist/",
-    "pretest": "npm run build",
-    "test": "jest",
-    "prerelease": "npm run build",
-    "release": "standard-version --sign --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && npm publish"
+    "format": "prettier --write **/*.{js,vue}",
+    "pretest": "yarn build",
+    "test": "JEST_JUNIT_OUTPUT='./coverage/junit.xml' jest",
+    "prerelease": "yarn build",
+    "release": "standard-version --sign --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
   }
 }
