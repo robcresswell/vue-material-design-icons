@@ -1,46 +1,46 @@
-import { shallowMount } from "@vue/test-utils";
-import AndroidIcon from "../dist/Android.vue";
+import { shallowMount } from '@vue/test-utils';
+import AndroidIcon from '../dist/Android';
 
-describe("Icon", () => {
+describe('Icon', () => {
   let icon;
 
   beforeEach(() => {
     icon = shallowMount(AndroidIcon);
   });
 
-  it("accepts a \"title\" property", () => {
-    expect(icon.vm.title).toEqual("Android icon");
-    expect(icon.attributes()["aria-label"]).toEqual("Android icon");
+  it('accepts a "title" property', () => {
+    expect(icon.vm.title).toEqual('Android icon');
+    expect(icon.attributes()['aria-label']).toEqual('Android icon');
 
-    icon.setProps({ title: "foo" });
+    icon.setProps({ title: 'foo' });
 
-    expect(icon.vm.title).toEqual("foo");
-    expect(icon.attributes()["aria-label"]).toEqual("foo");
+    expect(icon.vm.title).toEqual('foo');
+    expect(icon.attributes()['aria-label']).toEqual('foo');
   });
 
-  it("accepts a \"decorative\" property", () => {
+  it('accepts a "decorative" property', () => {
     expect(icon.vm.decorative).toBe(false);
-    expect(icon.attributes()["aria-hidden"]).toBeFalsy();
+    expect(icon.attributes()['aria-hidden']).toBeFalsy();
 
     icon.setProps({ decorative: true });
 
     expect(icon.vm.decorative).toBe(true);
-    expect(icon.attributes()["aria-hidden"]).toBeTruthy();
+    expect(icon.attributes()['aria-hidden']).toBeTruthy();
   });
 
-  it("accepts a \"fillColor\" property", () => {
-    const svg = icon.find(".material-design-icon__svg");
+  it('accepts a "fillColor" property', () => {
+    const svg = icon.find('.material-design-icon__svg');
 
-    expect(icon.vm.fillColor).toBe("currentColor");
-    expect(svg.attributes()["fill"]).toEqual("currentColor");
+    expect(icon.vm.fillColor).toBe('currentColor');
+    expect(svg.attributes()['fill']).toEqual('currentColor');
 
-    icon.setProps({ fillColor: "#FF0000" });
+    icon.setProps({ fillColor: '#FF0000' });
 
-    expect(icon.vm.fillColor).toBe("#FF0000");
-    expect(svg.attributes()["fill"]).toEqual("#FF0000");
+    expect(icon.vm.fillColor).toBe('#FF0000');
+    expect(svg.attributes()['fill']).toEqual('#FF0000');
   });
 
-  it("renders an icon", () => {
+  it('renders an icon', () => {
     expect(icon).toMatchSnapshot();
   });
 });
