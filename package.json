@@ -29,7 +29,6 @@
     "mustache": "^3.0.1",
     "prettier": "^1.18.2",
     "regenerator-runtime": "^0.13.2",
-    "standard-version": "^6.0.1",
     "vue": "^2.6.10",
     "vue-jest": "^3.0.4",
     "vue-template-compiler": "^2.6.10"
@@ -44,8 +43,6 @@
     "clean": "rm -rf dist/",
     "format": "prettier --write **/*.{js,vue}",
     "pretest": "yarn build",
-    "test": "JEST_JUNIT_OUTPUT='./coverage/junit.xml' jest",
-    "prerelease": "yarn build",
-    "release": "standard-version --sign --tag-prefix '' && cp package.json README.md CHANGELOG.md dist/ && cd dist && yarn publish"
+    "test": "JEST_JUNIT_OUTPUT='./coverage/junit.xml' jest"
   }
 }

@@ -1,22 +1,39 @@
 version: 2
 jobs:
-  build:
+  test:
     working_directory: ~/vue-material-design-icons
     docker:
       - image: node:12-alpine
     steps:
       - run:
           name: Install certificate handling for artifact uploading
-          command: apk add ca-certificates
+          command: apk --update add ca-certificates
       - checkout
-      - run: 
+      - run:
           name: Install dependencies
-          command: yarn
+          command: yarn --frozen-lockfile
       - run:
           name: Run tests
           command: yarn test
       - store_artifacts:
           path: coverage
-          prefix: coverage
       - store_test_results:
           path: coverage
+  release:
+    working_directory: ~/vue-material-design-icons
+    docker:
+      - image: node:12-alpine
+    steps:
+      - checkout
+      - run: apk --update add git
+      - run: yarn --frozen-lockfile
+      - run: yarn build
+      - run: npx semantic-release
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - test
+      - release:
+          requires:
+            - test
