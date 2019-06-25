@@ -2,6 +2,7 @@
   "branch": "dev",
   "plugins": [
     "@semantic-release/commit-analyzer",
+    "@semantic-release/changelog",
     [
       "@semantic-release/github",
       {
