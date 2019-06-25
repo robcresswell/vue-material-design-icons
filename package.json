@@ -40,7 +40,7 @@
   },
   "scripts": {
     "prebuild": "yarn clean",
-    "build": "./build.js && cp styles.css dist/",
+    "build": "./build.js && cp styles.css package.json README.md dist/",
     "clean": "rm -rf dist/",
     "format": "prettier --write **/*.{js,vue}",
     "pretest": "yarn build",
