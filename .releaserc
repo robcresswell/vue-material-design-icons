@@ -1,6 +1,7 @@
 {
   "branch": "dev",
   "tagFormat": "${version}",
+  "pkgRoot": "dist/",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/changelog",
