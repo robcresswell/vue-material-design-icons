@@ -5,12 +5,26 @@ const fs = require('fs');
 const fsp = require('fs').promises;
 const mustache = require('mustache');
 const path = require('path');
+const pMap = require('p-map');
 const icons = require('@mdi/js/commonjs/mdi.js');
 const dist = path.resolve(__dirname, 'dist');
 const templateFile = path.resolve(__dirname, 'template.mst');
-const iconIDs = Object.keys(icons);
+const template = fs.readFileSync(templateFile, { encoding: 'utf8' });
+const process = require('process');
 
-const templateData = iconIDs.map((id) => {
+function renderAndWrite({ name, title, readableName, svgPathData }) {
+  const component = mustache.render(template, {
+    name,
+    title,
+    readableName,
+    svgPathData,
+  });
+  const filename = `${name}.vue`;
+
+  return fsp.writeFile(path.resolve(dist, filename), component);
+}
+
+function getTemplateData(id) {
   const splitID = id.split(/(?=[A-Z])/).slice(1);
 
   const name = splitID.join('');
@@ -29,29 +43,17 @@ const templateData = iconIDs.map((id) => {
     readableName,
     svgPathData: icons[id],
   };
-});
+}
 
-const generateIcons = async () => {
-  const template = fs.readFileSync(templateFile, { encoding: 'utf8' });
+(async function() {
+  const iconIDs = Object.keys(icons);
 
   if (!fs.existsSync(dist)) {
     fs.mkdirSync(dist);
   }
 
-  const filePromises = templateData.map(
-    ({ name, title, readableName, svgPathData }) => {
-      const component = mustache.render(template, {
-        name,
-        title,
-        readableName,
-        svgPathData,
-      });
-      const filename = `${name}.vue`;
-      return fsp.writeFile(path.resolve(dist, filename), component);
-    },
-  );
+  const templateData = iconIDs.map(getTemplateData);
 
-  Promise.all(filePromises);
-};
-
-generateIcons();
+  // Batch process promises to avoid overloading memory
+  await pMap(templateData, renderAndWrite, { concurrency: 20 });
+})();

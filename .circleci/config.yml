@@ -1,32 +1,37 @@
-version: 2
+version: 2.0
+defaults: &defaults
+  working_directory: ~/ci
+  docker:
+    - image: robcresswell/circleci-node-alpine
+commands:
+  install_deps:
+    description: Install dependencies (from cache, if possible)
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            # when lock file changes, use increasingly general patterns to restore cache
+            - yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-{{ .Branch }}-
+            - yarn-
+      - run: yarn --frozen-lockfile
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+          key: yarn-{{ .Branch }}-{{ checksum "yarn.lock" }}
 jobs:
   test:
-    working_directory: ~/vue-material-design-icons
-    docker:
-      - image: node:12-alpine
+    <<: *defaults
     steps:
-      - run:
-          name: Install certificate handling for artifact uploading
-          command: apk --update add ca-certificates
-      - checkout
-      - run:
-          name: Install dependencies
-          command: yarn --frozen-lockfile
-      - run:
-          name: Run tests
-          command: yarn test
-      - store_artifacts:
-          path: coverage
+      - install_deps
+      - run: yarn build
+      - run: ./node_modules/.bin/jest --runInBand --ci
       - store_test_results:
-          path: coverage
+          path: junit.xml
   release:
-    working_directory: ~/vue-material-design-icons
-    docker:
-      - image: node:12-alpine
+    <<: *defaults
     steps:
-      - checkout
-      - run: apk --update add git
-      - run: yarn --frozen-lockfile
+      - install_deps
       - run: yarn build
       - run: npx semantic-release
 workflows:
