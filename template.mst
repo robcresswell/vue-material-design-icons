@@ -1,17 +1,18 @@
 {{=<% %>=}}
-<template>
-  <span :aria-hidden="decorative"
-        :aria-label="title"
+<template functional>
+  <span :aria-hidden="props.decorative"
+        :aria-label="props.title"
+        :class="[data.class, data.staticClass]"
         class="material-design-icon <%title%>-icon"
         role="img"
-        @click="$emit('click', $event)">
-    <svg :fill="fillColor"
+        @click="listeners.click ? listeners.click : () => true">
+    <svg :fill="props.fillColor"
          class="material-design-icon__svg"
-         :width="size"
-         :height="size"
+         :width="props.size"
+         :height="props.size"
          viewBox="0 0 24 24">
       <path d="<%{svgPathData}%>">
-        <title>{{ title }}</title>
+        <title>{{ props.title }}</title>
       </path>
     </svg>
   </span>
