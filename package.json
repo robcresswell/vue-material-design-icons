@@ -25,7 +25,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
-    "jest-junit": "^6.4.0",
+    "jest-junit": "^7.0.0",
     "jest-serializer-vue": "2.0.2",
     "mustache": "^3.0.1",
     "prettier": "^1.18.2",
