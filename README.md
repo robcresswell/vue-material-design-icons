@@ -83,10 +83,9 @@ easier.
   <android-icon decorative />
   ```
 
-- `fillColor` - This property allows you to set the fill colour of an icon via
-  JS instead of requiring CSS changes. Note that any CSS values, such as
-  `fill: currentColor;` provided by the optional CSS file, may override colours
-  set with this prop.
+- `fillColor` - This property allows you to set the fill colour of an icon. it
+   will set an inline style on the svg element that will override any other
+   styles.
 
   Example:
 

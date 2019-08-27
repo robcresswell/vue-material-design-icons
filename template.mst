@@ -5,7 +5,7 @@
         class="material-design-icon <%title%>-icon"
         role="img"
         @click="$emit('click', $event)">
-    <svg :fill="fillColor"
+    <svg :style="`fill: ${fillColor}`"
          class="material-design-icon__svg"
          :width="size"
          :height="size"
