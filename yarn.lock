@@ -794,10 +794,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@mdi/js@4.1.95":
-  version "4.1.95"
-  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-4.1.95.tgz#2339bc40766c7c030e8b1ee3738117bfa695bcc5"
-  integrity sha512-yWJrAa7rAzGEAQQ4gvb6dpzoOXF+bvQI53TQaV4YNWDoCVkfJD6tIGbou06UJH+ZFZ6Rlo7kA+xWn4E3kPJlvw==
+"@mdi/js@4.3.95":
+  version "4.3.95"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-4.3.95.tgz#79e3253eeaa6e0cf02733c4c1f65c801d9d4b42c"
+  integrity sha512-dYJX1q1aDBIpHtTReCnmL4zigvmEPuXdVsw3Sn7190+k8vWaAc8UWMOlMag7S+Ym1C+jeO1S7zE5fdb1gBOB5A==
 
 "@types/babel__core@^7.1.0":
   version "7.1.2"
