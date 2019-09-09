@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils';
+import { shallowMount, mount } from '@vue/test-utils';
 import AndroidIcon from '../dist/Android';
 
 describe('Icon', () => {
@@ -42,5 +42,24 @@ describe('Icon', () => {
 
   it('renders an icon', () => {
     expect(icon).toMatchSnapshot();
+  });
+
+  it('listens to a click event', () => {
+    const clickListener = jest.fn()
+    const iconWithEvent = mount({
+      name: 'IconWithEvent',
+      components: { AndroidIcon },
+      template: `
+        <AndroidIcon
+          @click="clickListener"
+        />
+      `,
+      methods: {
+        clickListener,
+      },
+    })
+
+    iconWithEvent.trigger('click')
+    expect(clickListener).toBeCalled()
   });
 });
