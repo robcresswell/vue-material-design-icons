@@ -66,6 +66,6 @@ describe('Icon', () => {
     })
 
     iconWithEvent.trigger('click')
-    expect(clickListener).not.toBeCalled()
+    expect(clickListener).toBeCalled()
   });
 });
