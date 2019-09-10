@@ -5,7 +5,7 @@
         :class="[data.class, data.staticClass]"
         class="material-design-icon <%title%>-icon"
         role="img"
-        @click="listeners.click ? listeners.click : () => true">
+        v-on="listeners">
     <svg :fill="props.fillColor"
          class="material-design-icon__svg"
          :width="props.size"
