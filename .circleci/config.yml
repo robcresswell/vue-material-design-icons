@@ -26,7 +26,7 @@ jobs:
       - run: yarn build
       - run: ./node_modules/.bin/jest --runInBand --ci
       - store_test_results:
-          path: junit.xml
+          path: reports
   release:
     <<: *defaults
     steps:
