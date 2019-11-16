@@ -5,6 +5,7 @@
         :class="[data.class, data.staticClass]"
         class="material-design-icon <%title%>-icon"
         role="img"
+        v-bind="data.attrs"
         v-on="listeners">
     <svg :fill="props.fillColor"
          class="material-design-icon__svg"
