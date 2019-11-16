@@ -51,7 +51,7 @@ describe('Icon', () => {
   });
 
   it('listens to a click event', () => {
-    const clickListener = jest.fn()
+    const clickListener = jest.fn();
     const iconWithEvent = mount({
       name: 'IconWithEvent',
       components: { AndroidIcon },
@@ -63,9 +63,9 @@ describe('Icon', () => {
       methods: {
         clickListener,
       },
-    })
+    });
 
-    iconWithEvent.trigger('click')
-    expect(clickListener).toBeCalled()
+    iconWithEvent.trigger('click');
+    expect(clickListener).toBeCalled();
   });
 });
