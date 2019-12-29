@@ -1,6 +1,7 @@
 version: 2.1
 defaults: &defaults
   working_directory: ~/ci
+  resource_class: small
   docker:
     - image: robcresswell/circleci-node-alpine
 commands:
