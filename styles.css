@@ -1,14 +1,8 @@
 .material-design-icon {
-  display: inline-flex;
-  align-self: center;
-  position: relative;
-  height: 1em;
-  width: 1em;
+  display: flex;
+  align-content: space-around;
 }
 .material-design-icon > .material-design-icon__svg {
-  height: 1em;
-  width: 1em;
+  align-self: center;
   fill: currentColor;
-  position: absolute;
-  bottom: -0.125em;
 }
