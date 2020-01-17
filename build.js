@@ -9,7 +9,6 @@ const icons = require('@mdi/js/commonjs/mdi.js');
 const dist = path.resolve(__dirname, 'dist');
 const templateFile = path.resolve(__dirname, 'template.mst');
 const template = fs.readFileSync(templateFile, { encoding: 'utf8' });
-const process = require('process');
 
 function renderAndWrite({ name, title, readableName, svgPathData }) {
   const component = mustache.render(template, {
@@ -47,7 +46,7 @@ function getTemplateData(id) {
 function writeIndexFile(templateData) {
   let exported = "";
   templateData.forEach(el => {
-    exported += `export ${el.name} from './${el.name}';\n`;
+    exported += `export { default as ${el.name} } from './${el.name}.vue';\n`;
   });
   return fsp.writeFile(path.resolve(dist, "index.js"), exported);
 }
