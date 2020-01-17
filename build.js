@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 // Imports
 const fs = require('fs');
 const fsp = require('fs').promises;
@@ -45,15 +44,40 @@ function getTemplateData(id) {
   };
 }
 
+function writeIndexFile(templateData) {
+  let exported = "";
+  templateData.forEach(el => {
+    exported += `export ${el.name} from './${el.name}';\n`;
+  });
+  return fsp.writeFile(path.resolve(dist, "index.js"), exported);
+}
+
+function copyPackageFile(name) {
+  return new Promise(resolve => {
+    let dest = path.join(dist, name);
+    fs.copyFileSync(`./${name}`, dest);
+    resolve(dest);
+  });
+}
+
 (async function() {
   const iconIDs = Object.keys(icons);
 
-  if (!fs.existsSync(dist)) {
-    fs.mkdirSync(dist);
+  if (fs.existsSync(dist)) {
+    //Note: Recursive option available from Node v12.10.0
+    await fsp.rmdir(dist, { recursive: true });
   }
+  await fsp.mkdir(dist);
 
   const templateData = iconIDs.map(getTemplateData);
 
   // Batch process promises to avoid overloading memory
-  await pMap(templateData, renderAndWrite, { concurrency: 20 });
+  await Promise.all([
+    pMap(templateData, renderAndWrite, { concurrency: 20 }),
+    writeIndexFile(templateData),
+    copyPackageFile("./styles.css"),
+    copyPackageFile("./package.json"),
+    copyPackageFile("./README.md")
+  ]);
+
 })();

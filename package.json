@@ -39,9 +39,7 @@
     "url": "https://github.com/robcresswell/vue-material-design-icons/issues"
   },
   "scripts": {
-    "prebuild": "rm -rf dist/",
-    "build": "./build.js",
-    "postbuild": "cp styles.css package.json README.md dist/",
+    "build": "node ./build.js",
     "format": "prettier --write **/*.{js,vue}",
     "test": "jest"
   }
