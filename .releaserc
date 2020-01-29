@@ -1,5 +1,5 @@
 {
-  "branch": "dev",
+  "branches": "dev",
   "tagFormat": "${version}",
   "pkgRoot": "dist/",
   "plugins": [
