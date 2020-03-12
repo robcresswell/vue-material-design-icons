@@ -29,7 +29,7 @@
     "mustache": "^4.0.0",
     "p-map": "^4.0.0",
     "prettier": "^1.18.2",
-    "regenerator-runtime": "^0.13.3",
+    "regenerator-runtime": "^0.13.5",
     "vue": "^2.6.10",
     "vue-jest": "^3.0.5",
     "vue-template-compiler": "^2.6.10"
