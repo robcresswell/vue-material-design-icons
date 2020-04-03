@@ -20,7 +20,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@mdi/js": "5.0.45",
-    "@vue/test-utils": "1.0.0-beta.29",
+    "@vue/test-utils": "1.0.0-beta.32",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^25.2.6",
     "jest": "^25.2.7",
