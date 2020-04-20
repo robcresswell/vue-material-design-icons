@@ -1,8 +1,5 @@
 .material-design-icon {
   display: flex;
-  align-content: space-around;
-}
-.material-design-icon > .material-design-icon__svg {
-  align-self: center;
-  fill: currentColor;
+  align-items: center;
+  justify-content: center;
 }
