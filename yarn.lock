@@ -1079,13 +1079,14 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@vue/test-utils@1.0.0-beta.29":
-  version "1.0.0-beta.29"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.0-beta.29.tgz#c942cf25e891cf081b6a03332b4ae1ef430726f0"
-  integrity sha512-yX4sxEIHh4M9yAbLA/ikpEnGKMNBCnoX98xE1RwxfhQVcn0MaXNSj1Qmac+ZydTj6VBSEVukchBogXBTwc+9iA==
+"@vue/test-utils@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.0.1.tgz#323e7c460855fbf39c3606b7aee4cc54483140bf"
+  integrity sha512-FxYkzH8hsoRdHfqCZUTPVa9IncDh7kzDr7sPtv9Mx6GNM1tGQxuadSFNMP+e4Rl+7BUbn23oggVUdRgbs7FcCw==
   dependencies:
     dom-event-types "^1.0.0"
-    lodash "^4.17.4"
+    lodash "^4.17.15"
+    pretty "^2.0.0"
 
 abab@^2.0.0:
   version "2.0.0"
@@ -3631,7 +3632,7 @@ pretty-format@^25.2.6:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-pretty@2.0.0:
+pretty@2.0.0, pretty@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pretty/-/pretty-2.0.0.tgz#adbc7960b7bbfe289a557dc5f737619a220d06a5"
   integrity sha1-rbx5YLe7/iiaVX3F9zdhmiINBqU=
