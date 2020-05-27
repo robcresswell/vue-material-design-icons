@@ -1,10 +1,5 @@
 # Vue Material Design Icon Components
 
-![License: MIT](https://img.shields.io/npm/l/vue-material-design-icons.svg?style=for-the-badge)
-![npm download count](https://img.shields.io/npm/dt/vue-material-design-icons.svg?style=for-the-badge)
-![Dependency status for latest release](https://img.shields.io/librariesio/release/npm/vue-material-design-icons.svg?style=for-the-badge)
-![Vulnerability count from Snyk](https://img.shields.io/snyk/vulnerabilities/npm/vue-material-design-icons.svg?style=for-the-badge)
-
 This library is a collection of Vue single-file components to render Material
 Design Icons, sourced from the
 [MaterialDesign project](https://github.com/Templarian/MaterialDesign 'MaterialDesign Github page').
@@ -16,23 +11,16 @@ easier.
 1. Install the package
 
    ```console
-   npm install --save vue-material-design-icons
+   yarn add vue-material-design-icons
    ```
 
    **OR**
 
    ```console
-   yarn add vue-material-design-icons
+   npm i vue-material-design-icons
    ```
 
-2. **Optional, but recommended** Add the included stylesheet to your root JS
-   file, usually `index.js` or `main.js`:
-
-   ```javascript
-   import 'vue-material-design-icons/styles.css';
-   ```
-
-3. Import the icon, and declare it as a local component:
+2. Import the icon, and declare it as a local component:
 
    ```javascript
    import MenuIcon from 'vue-material-design-icons/Menu.vue';
@@ -55,10 +43,19 @@ easier.
    > **Note** Icon files are pascal cased, e.g. `CheckboxMarkedCircle.vue`, and
    > their default name has `Icon` appended e.g. `CheckboxMarkedCircleIcon`.
 
-4. Then use it in your template code!
+3. Then use it in your template code!
 
    ```html
    <menu-icon />
+   ```
+
+4. **Optional** Add the included stylesheet. This few lines of CSS will cause
+   the icons to scale with any surrounding text, which can be helpful when you
+   primarily style with CSS. Note that if you intend to handle sizing with the
+   `size` prop, you probably don't want to use this as it may conflict.
+
+   ```javascript
+   import 'vue-material-design-icons/styles.css';
    ```
 
 ## Props
