@@ -17,22 +17,22 @@
     "material design"
   ],
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
     "@mdi/js": "5.3.45",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^25.2.6",
-    "jest": "^25.2.7",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
     "jest-junit": "^10.0.0",
     "jest-serializer-vue": "2.0.2",
     "mustache": "^4.0.1",
     "p-map": "^4.0.0",
-    "prettier": "^2.0.4",
+    "prettier": "^2.0.5",
     "regenerator-runtime": "^0.13.5",
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-jest": "^3.0.5",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   },
   "homepage": "https://github.com/robcresswell/vue-material-design-icons",
   "bugs": {
