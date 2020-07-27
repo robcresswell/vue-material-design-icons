@@ -1007,10 +1007,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mdi/js@5.3.45":
-  version "5.3.45"
-  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-5.3.45.tgz#c6f523311bf77e339051e24aaa3eddabf565a027"
-  integrity sha512-r05JoeUhokSERwW6yYi3WcKCBePHHqBvIikOD0X/dWyaZb6gIRth5Lya7VVTItvGo1qlpp8LpMJKmE6o49+G+Q==
+"@mdi/js@5.4.45":
+  version "5.4.45"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-5.4.45.tgz#f907d5dee76e831763fc2f799a35bbe0dc6280f8"
+  integrity sha512-KjWT28n9dKTECgEIoIcAy4itwFjg8w0QCYSNkGcOiDxNkXfdYpXX29mmWBsfUzWMF3S2j5LgBFhlHz1D9CeZ1w==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
