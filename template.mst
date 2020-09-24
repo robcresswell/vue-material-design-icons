@@ -1,8 +1,9 @@
 {{=<% %>=}}
 <template functional>
-  <span :aria-hidden="props.decorative"
+  <div :aria-hidden="props.decorative"
         :aria-label="props.title"
         :class="[data.class, data.staticClass]"
+        :style="{height: props.size + 'px'}"
         class="material-design-icon <%title%>-icon"
         role="img"
         v-bind="data.attrs"
@@ -16,7 +17,7 @@
         <title>{{ props.title }}</title>
       </path>
     </svg>
-  </span>
+  </div>
 </template>
 
 <script>
