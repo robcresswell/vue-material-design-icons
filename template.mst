@@ -2,11 +2,8 @@
 <template>
   <span :aria-hidden="decorative"
         :aria-label="title"
-        :class="[data.class, data.staticClass]"
         class="material-design-icon <%title%>-icon"
-        role="img"
-        v-bind="data.attrs"
-        v-on="listeners">
+        role="img">
     <svg :fill="fillColor"
          class="material-design-icon__svg"
          :width="size"

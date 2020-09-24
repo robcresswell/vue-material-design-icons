@@ -1,6 +1,6 @@
 {
   "name": "@mkody/vue-material-design-icons",
-  "version": "3.2.1-mkody",
+  "version": "3.2.3-mkody",
   "author": "Rob Cresswell <robcresswell@protonmail.com>",
   "license": "MIT",
   "description": "A collection of material design icons as Vue single file components",
