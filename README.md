@@ -11,19 +11,19 @@ easier.
 1. Install the package
 
    ```console
-   yarn add vue-material-design-icons
+   yarn add @mkody/vue-material-design-icons
    ```
 
    **OR**
 
    ```console
-   npm i vue-material-design-icons
+   npm i @mkody/vue-material-design-icons
    ```
 
 2. Import the icon, and declare it as a local component:
 
    ```javascript
-   import MenuIcon from 'vue-material-design-icons/Menu.vue';
+   import MenuIcon from '@mkody/vue-material-design-icons/Menu.vue';
 
    components: {
      MenuIcon;
@@ -35,7 +35,7 @@ easier.
    Declare it as a global component:
 
    ```javascript
-   import MenuIcon from 'vue-material-design-icons/Menu.vue';
+   import MenuIcon from '@mkody/vue-material-design-icons/Menu.vue';
 
    Vue.component('menu-icon', MenuIcon);
    ```
@@ -55,7 +55,7 @@ easier.
    `size` prop, you probably don't want to use this as it may conflict.
 
    ```javascript
-   import 'vue-material-design-icons/styles.css';
+   import '@mkody/vue-material-design-icons/styles.css';
    ```
 
 ## Props
@@ -116,7 +116,7 @@ named `ultra-high-definition` would be imported as
   ```javascript
   resolve: {
     alias : {
-      "icons": path.resolve(__dirname, "node_modules/vue-material-design-icons")
+      "icons": path.resolve(__dirname, "node_modules/@mkody/vue-material-design-icons")
     },
     extensions: [
       ".vue"
