@@ -1,7 +1,14 @@
 {
   "name": "@mkody/vue-material-design-icons",
-  "version": "3.2.3-mkody",
+  "version": "4.11.1-mkody",
   "author": "Rob Cresswell <robcresswell@protonmail.com>",
+  "contributors": [
+    {
+      "name": "André Kody Fernandes",
+      "email": "gh@kdy.ch",
+      "url": "https://github.com/mkody"
+    }
+  ],
   "license": "MIT",
   "description": "A collection of material design icons as Vue single file components",
   "repository": {
@@ -20,22 +27,22 @@
     "material design"
   ],
   "devDependencies": {
-    "@babel/core": "^7.10.0",
-    "@babel/preset-env": "^7.10.0",
-    "@mdi/js": "5.8.55",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@mdi/js": "5.9.55",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^26.0.1",
-    "jest": "^26.0.1",
-    "jest-junit": "^10.0.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "jest-junit": "^12.0.0",
     "jest-serializer-vue": "2.0.2",
     "mustache": "^4.0.1",
     "p-map": "^4.0.0",
-    "prettier": "^2.0.5",
+    "prettier": "^2.2.1",
     "regenerator-runtime": "^0.13.5",
-    "vue": "^2.6.11",
-    "vue-jest": "^3.0.5",
-    "vue-template-compiler": "^2.6.11"
+    "vue": "^2.6.12",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.12"
   },
   "homepage": "https://github.com/mkody/vue-material-design-icons",
   "bugs": {
