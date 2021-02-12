@@ -9,8 +9,8 @@ update_configs:
       - "mkody"
     automerged_updates:
       - match:
-        dependency_type: "all"
-        update_type: "all"
+          dependency_type: "all"
+          update_type: "all"
     version_requirement_updates: "increase_versions"
     commit_message:
       prefix: "feat"
