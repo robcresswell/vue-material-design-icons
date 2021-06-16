@@ -13,7 +13,7 @@
          :height="props.size"
          viewBox="0 0 24 24">
       <path d="<%{svgPathData}%>">
-        <title>{{ props.title }}</title>
+        <title v-if="!props.decorative">{{ props.title }}</title>
       </path>
     </svg>
   </span>
