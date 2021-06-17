@@ -30,9 +30,9 @@
     "p-map": "^4.0.0",
     "prettier": "^2.0.5",
     "regenerator-runtime": "^0.13.5",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-jest": "^3.0.5",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "homepage": "https://github.com/robcresswell/vue-material-design-icons",
   "bugs": {
