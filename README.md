@@ -61,8 +61,8 @@ easier.
 ## Props
 
 - `title` - This changes the hover tooltip as well as the title shown to screen
-  readers. By default, those values are a "human readable" conversion of the
-  icon names; for example `chevron-down-icon` becomes "Chevron down icon".
+  readers. For accessibility purposes, a title is required unless the 
+  `decorative` prop is set to `true`.
 
   Example:
 

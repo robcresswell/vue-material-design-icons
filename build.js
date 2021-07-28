@@ -12,11 +12,10 @@ const templateFile = path.resolve(__dirname, 'template.mst');
 const template = fs.readFileSync(templateFile, { encoding: 'utf8' });
 const process = require('process');
 
-function renderAndWrite({ name, title, readableName, svgPathData }) {
+function renderAndWrite({ name, title, svgPathData }) {
   const component = mustache.render(template, {
     name,
     title,
-    readableName,
     svgPathData,
   });
   const filename = `${name}.vue`;
@@ -33,14 +32,9 @@ function getTemplateData(id) {
   // "android", for example
   const title = splitID.join('-').toLowerCase();
 
-  // Transforms the icon ID to a human readable form for default titles.
-  // For example, "mdiAndroidStudio" becomes "Android Studio"
-  const readableName = splitID.join(' ');
-
   return {
     name,
     title,
-    readableName,
     svgPathData: icons[id],
   };
 }

@@ -21,7 +21,7 @@ describe('Icon', () => {
   });
 
   it('accepts a "title" property', () => {
-    expect(icon.attributes()['aria-label']).toEqual('Android icon');
+    expect(icon.attributes()['aria-label']).toBeFalsy();
 
     icon.setProps({ title: 'foo' });
 
@@ -34,6 +34,7 @@ describe('Icon', () => {
     icon.setProps({ decorative: true });
 
     expect(icon.attributes()['aria-hidden']).toBeTruthy();
+    expect(icon.attributes()['aria-label']).toBeFalsy();
   });
 
   it('accepts a "fillColor" property', () => {
