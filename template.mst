@@ -25,7 +25,6 @@ export default {
   props: {
     title: {
       type: String,
-      default: "<%readableName%> icon"
     },
     decorative: {
       type: Boolean,
@@ -38,6 +37,12 @@ export default {
     size: {
       type: Number,
       default: 24
+    }
+  },
+  methods :{
+    created() {
+      if (this.decorative) this.title = null;
+      if (!this.decorative && !this.title) throw new TypeError('Icons must have a title or be declared as decorative.', '<%name%>Icon.vue')
     }
   }
 }
