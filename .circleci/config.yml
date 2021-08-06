@@ -3,7 +3,7 @@ defaults: &defaults
   working_directory: ~/ci
   resource_class: small
   docker:
-    - image: robcresswell/circleci-node-alpine
+    - image: cimg/node:lts
 commands:
   install_deps:
     description: Install dependencies (from cache, if possible)

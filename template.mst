@@ -10,7 +10,7 @@
          :height="size"
          viewBox="0 0 24 24">
       <path d="<%{svgPathData}%>">
-        <title>{{ title }}</title>
+        <title v-if="!decorative">{{ title }}</title>
       </path>
     </svg>
   </span>
