@@ -1,16 +1,15 @@
-#!/usr/bin/env node
-
 // Imports
-const fs = require('fs');
-const fsp = require('fs').promises;
-const mustache = require('mustache');
-const path = require('path');
-const pMap = require('p-map');
-const icons = require('@mdi/js/commonjs/mdi.js');
+import fs from 'fs';
+import { promises as fsp } from 'fs';
+import mustache from 'mustache';
+import path from 'path';
+import pMap from 'p-map';
+import icons from '@mdi/js/commonjs/mdi.js';
+
+const __dirname = path.resolve();
 const dist = path.resolve(__dirname, 'dist');
 const templateFile = path.resolve(__dirname, 'template.mst');
 const template = fs.readFileSync(templateFile, { encoding: 'utf8' });
-const process = require('process');
 
 function renderAndWrite({ name, title, readableName, svgPathData }) {
   const component = mustache.render(template, {

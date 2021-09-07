@@ -10,4 +10,5 @@ module.exports = {
     'default',
     ['jest-junit', { outputDirectory: '<rootDir>/reports/jest' }],
   ],
+  testEnvironment: 'jsdom',
 };
