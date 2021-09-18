@@ -4,6 +4,5 @@ node_modules/
 *.log
 *.tgz
 dist/
-package-lock.json
 coverage/
 reports/
