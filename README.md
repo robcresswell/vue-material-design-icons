@@ -61,23 +61,14 @@ easier.
 ## Props
 
 - `title` - This changes the hover tooltip as well as the title shown to screen
-  readers. By default, those values are a "human readable" conversion of the
-  icon names; for example `chevron-down-icon` becomes "Chevron down icon".
+  readers. For accessibility purposes, if a `title` is not provided, then the
+  icon is hidden from screen readers. This is to force developers to use
+  meaningful titles for their icon usage.
 
   Example:
 
   ```html
   <android-icon title="this is an icon!" />
-  ```
-
-- `decorative` - This denotes whether an icon is purely decorative, or has some
-  meaninfgul value. If an icon is decorative, it will be hidden from screen
-  readers. By default, this is `false`.
-
-  Example:
-
-  ```html
-  <android-icon decorative />
   ```
 
 - `fillColor` - This property allows you to set the fill colour of an icon via
