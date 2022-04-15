@@ -32,6 +32,7 @@ function renderTemplate(title: string, svgPathData: string, name: string) {
 <script>
 export default {
   name: "${name}Icon",
+  emits: ['click'],
   props: {
     title: {
       type: String,
