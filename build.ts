@@ -11,11 +11,11 @@ const dist = path.resolve(__dirname, 'dist');
 
 function renderTemplate(title: string, svgPathData: string, name: string) {
   return `<template>
-  <span :aria-hidden="!title"
+  <span v-bind="$attrs"
+        :aria-hidden="!title"
         :aria-label="title"
         class="material-design-icon ${title}-icon"
         role="img"
-        v-bind="$attrs"
         @click="$emit('click', $event)">
     <svg :fill="fillColor"
          class="material-design-icon__svg"
