@@ -9,6 +9,8 @@ import { existsSync } from 'fs';
 
 const dist = path.resolve(__dirname, 'dist');
 
+type IconsKey = keyof typeof icons;
+
 function renderTemplate(title: string, svgPathData: string, name: string) {
   return `<template>
   <span v-bind="$attrs"
@@ -50,7 +52,7 @@ export default {
 </script>`;
 }
 
-function getTemplateData(id: string) {
+function getTemplateData(id: IconsKey) {
   const splitID = id.split(/(?=[A-Z])/).slice(1);
 
   const name = splitID.join('');
@@ -67,7 +69,7 @@ function getTemplateData(id: string) {
 }
 
 async function build() {
-  const iconIDs = Object.keys(icons);
+  const iconIDs = Object.keys(icons) as IconsKey[];
 
   if (!existsSync(dist)) {
     await mkdir(dist);
