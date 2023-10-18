@@ -12,7 +12,7 @@ const dist = path.resolve(__dirname, 'dist');
 function renderTemplate(title: string, svgPathData: string, name: string) {
   return `<template>
   <span v-bind="$attrs"
-        :aria-hidden="!title"
+        :aria-hidden="title ? null : true"
         :aria-label="title"
         class="material-design-icon ${title}-icon"
         role="img"
