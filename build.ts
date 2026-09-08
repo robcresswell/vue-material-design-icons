@@ -16,15 +16,14 @@ function renderTemplate(title: string, svgPathData: string, name: string) {
         :aria-label="title"
         class="material-design-icon ${title}-icon"
         role="img"
+        :title="title ? title : null"
         @click="$emit('click', $event)">
     <svg :fill="fillColor"
          class="material-design-icon__svg"
          :width="size"
          :height="size"
          viewBox="0 0 24 24">
-      <path d="${svgPathData}">
-        <title v-if="title">{{ title }}</title>
-      </path>
+      <path d="${svgPathData}"/>
     </svg>
   </span>
 </template>
