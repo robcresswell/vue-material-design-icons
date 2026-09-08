@@ -26,6 +26,7 @@ describe('Icon', () => {
     await icon.setProps({ title: 'foo' });
 
     expect(icon.attributes()['aria-label']).toEqual('foo');
+    expect(icon.attributes()['title']).toEqual('foo');
   });
 
   it('accepts a "fillColor" property', async () => {
