@@ -21,9 +21,8 @@ function renderTemplate(title: string, svgPathData: string, name: string) {
          :width="size"
          :height="size"
          viewBox="0 0 24 24">
-      <path d="${svgPathData}">
-        <title v-if="title">{{ title }}</title>
-      </path>
+      <title v-if="title">{{ title }}</title>
+      <path d="${svgPathData}"/>
     </svg>
   </span>
 </template>
