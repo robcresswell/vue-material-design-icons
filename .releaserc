@@ -1,16 +1,27 @@
 {
   "branches": "dev",
   "tagFormat": "${version}",
-  "pkgRoot": "dist/",
   "plugins": [
     "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false,
+        "pkgRoot": "dist/"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "npx --yes npm@11.20.0 stage publish ./dist --tag latest"
+      }
+    ],
     [
       "@semantic-release/github",
       {
         "successComment": false
       }
-    ],
-    "@semantic-release/npm",
-    "@semantic-release/release-notes-generator"
+    ]
   ]
 }

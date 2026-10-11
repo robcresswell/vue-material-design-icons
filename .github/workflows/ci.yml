@@ -45,6 +45,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - run: npx --yes semantic-release@25.0.9
+      - run: npx --yes -p semantic-release@25.0.9 -p @semantic-release/exec@7.1.0 semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
