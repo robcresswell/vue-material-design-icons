@@ -14,7 +14,7 @@ describe('Icon', () => {
 
     expect(icon.attributes('aria-label')).toEqual('foo');
     expect(icon.attributes('aria-hidden')).toBeUndefined();
-    expect(icon.find('title').text()).toEqual('foo');
+    expect(icon.find('svg > title').text()).toEqual('foo');
   });
 
   it('accepts a "fillColor" property', async () => {
