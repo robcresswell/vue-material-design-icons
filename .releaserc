@@ -14,7 +14,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "npx --yes npm@11.20.0 stage publish ./dist --tag latest"
+        "publishCmd": "env -u npm_config_package npx --yes npm@11.20.0 stage publish ./dist --tag latest"
       }
     ],
     [
