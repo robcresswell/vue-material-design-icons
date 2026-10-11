@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "commonjs",
-    "pretty": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "types": ["node"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -11,9 +11,11 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "importsNotUsedAsValues": "error",
-    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
     "noEmit": true
-  }
+  },
+  "include": ["*.mts", "*.ts"]
 }
