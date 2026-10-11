@@ -94,9 +94,9 @@ easier.
 ## Icons
 
 A list of the icons can be found at the
-[Material Design Icons website](https://materialdesignicons.com/ 'Material Design Icons website'). The icons packaged here are pascal cased
+[Material Design Icons website](https://pictogrammers.com/library/mdi/ 'Material Design Icons website'). The icons packaged here are pascal cased
 versions of the names displayed on the website, to match the
-[Vue Style Guide](https://vuejs.org/v2/style-guide/). For example, the icon
+[Vue Style Guide](https://vuejs.org/style-guide/). For example, the icon
 named `ultra-high-definition` would be imported as
 `"vue-material-design-icons/UltraHighDefinition.vue"`.
 
