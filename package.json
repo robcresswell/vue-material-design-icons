@@ -19,6 +19,13 @@
     "vue.js",
     "material design"
   ],
+  "typesVersions": {
+    "*": {
+      "*.vue": [
+        "icon.d.ts"
+      ]
+    }
+  },
   "devDependencies": {
     "@mdi/js": "7.4.47",
     "@types/node": "^24.19.0",
