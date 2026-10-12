@@ -6,7 +6,7 @@ import icons from '@mdi/js';
 
 const root = import.meta.dirname;
 const dist = path.join(root, 'dist');
-const staticFiles = ['styles.css', 'package.json', 'README.md'];
+const staticFiles = ['styles.css', 'icon.d.ts', 'package.json', 'README.md'];
 
 function renderTemplate(title: string, svgPathData: string, name: string) {
   return `<template>

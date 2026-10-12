@@ -91,6 +91,13 @@ easier.
   <android-icon :size="48" />
   ```
 
+## TypeScript
+
+Type declarations are included, so imports such as
+`vue-material-design-icons/Menu.vue` are typed without any extra configuration.
+If you previously added a `declare module 'vue-material-design-icons/*.vue'`
+shim, it can be removed.
+
 ## Icons
 
 A list of the icons can be found at the
